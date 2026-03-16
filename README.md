@@ -1,25 +1,62 @@
-# Introduction
+# 🛡️ Privacy-Wiki: Meta & Android Hardening
 
-The Privacy Wiki project aims to provide comprehensive guidelines and resources for enhancing privacy and security in Android applications. This repository serves as a collaborative effort to document hardening techniques and practices that can be adopted by developers to protect user data and privacy.
+> ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
+> **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
+> 
+> Das Löschen falscher Systemkomponenten kann die Stabilität des Betriebssystems beeinträchtigen oder dazu führen, dass das Gerät nicht mehr startet (Bootloop). 
+> * Erstelle **unbedingt ein vollständiges Backup** deiner Daten, bevor du Änderungen vornimmst.
+> * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
-# Table of Contents
-- [Introduction](#introduction)
+---
+
+## 📋 Inhaltsverzeichnis
+- [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
+- [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
-- [Documentation Files](#documentation-files)
 
-# Hardening Matrix
-| Category                | Hardening Technique       | Description                                   | Status    |
-|-------------------------|---------------------------|-----------------------------------------------|-----------|
-| Data Protection          | Encrypt Sensitive Data    | Use encryption to protect confidential data   | Applied   |
-| Permissions Management   | Minimize Permissions      | Request only necessary permissions             | Applied   |
-| Network Security         | Use HTTPS                 | Enforce HTTPS for network communications      | Applied   |
-| Code Obfuscation        | Apply ProGuard            | Use ProGuard to obfuscate code                | Pending   |
-| User Privacy            | Clear Tracking Ids        | Remove unique tracking identifiers             | Applied   |
-| Secure APIs             | Validate Inputs           | Ensure all inputs are validated                | Applied   |
-| Security Auditing       | Conduct Regular Audits    | Perform audits to identify vulnerabilities     | Pending   |
+---
 
-# Documentation Files
-- [File 1: Best Practices](docs/best_practices.md)
-- [File 2: Implementation Guide](docs/implementation_guide.md)
-- [File 3: FAQ](docs/faq.md)
+## 📱 Poco/Xiaomi System-Optimierung
+Um das Tracking und die Werbung auf Systemebene zu minimieren, sollten folgende Punkte durchgeführt werden:
 
+### 1. System-Ads (MSA) deaktivieren
+- Pfad: `Einstellungen -> Passwörter & Sicherheit -> Autorisierung & Widerruf`.
+- Aktion: Den Schalter bei **msa** auf AUS stellen.
+
+### 2. Werbe-ID löschen
+- Pfad: `Einstellungen -> Datenschutz -> Werbung`.
+- Aktion: **Werbe-ID löschen** wählen.
+
+### 3. App-Empfehlungen abschalten
+In den folgenden System-Apps jeweils die "Empfehlungen" in den App-Einstellungen deaktivieren:
+- **Sicherheit**, **Downloads**, **Themes**, **Dateimanager**.
+
+---
+
+## 👥 Meta (Instagram & Facebook) Anti-Tracking
+Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
+
+### 1. Aktivitäten außerhalb von Meta-Technologien
+- Pfad: `Kontozentrum -> Deine Informationen und Berechtigungen -> Deine Aktivitäten außerhalb von Meta-Technologien`.
+- Aktion: **Künftige Aktivitäten trennen** wählen.
+
+### 2. Werbepräferenzen
+- Pfad: `Kontozentrum -> Werbeeinstellungen -> Werbethemen`.
+- Aktion: **Sensible Themen einschränken** wählen.
+
+---
+
+## 📊 Hardening Matrix
+
+| Kategorie | Technik | Beschreibung | Status |
+| :--- | :--- | :--- | :--- |
+| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | Empfohlen |
+| **System** | Debloating | Unnötige System-Apps via Canta/Shizuku entfernen | In Arbeit |
+| **Tracking** | Werbe-ID | Eindeutige Werbe-IDs regelmäßig löschen | Aktiv |
+| **Social Media** | Off-Meta Activity | Datenaustausch mit Drittanbietern blockieren | Aktiv |
+
+---
+
+## 🛠️ Rettungsanker (Restore)
+Falls eine System-App versehentlich gelöscht wurde, kann sie per ADB am PC wiederhergestellt werden:
+`adb shell cmd package install-existing [PAKETNAME]`
