@@ -13,8 +13,9 @@
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
+- [Browser-Hardening & Tools](#browser-hardening--tools)
 
----
+
 
 ## 📱 Poco/Xiaomi System-Optimierung
 Um das Tracking und die Werbung auf Systemebene zu minimieren, sollten folgende Punkte durchgeführt werden:
