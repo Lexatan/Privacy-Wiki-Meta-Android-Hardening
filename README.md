@@ -65,6 +65,12 @@ Empfohlene Ressourcen für sicheres Surfen:
 * **Add-ons:** Installiere **uBlock Origin**.
 * **Analyse:** [Exodus Privacy](https://reports.exodus-privacy.eu.org/) zum Prüfen von App-Trackern.
 
+
+---
+
+## 🤝 Mitwirken
+Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind herzlich willkommen! Schau in die [CONTRIBUTING.md](CONTRIBUTING.md), um zu sehen, wie du helfen kannst.
+
 ---
 
 ## 🛠️ Rettungsanker (Restore)
