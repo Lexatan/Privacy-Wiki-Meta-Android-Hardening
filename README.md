@@ -18,6 +18,7 @@
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
 - [Browser-Hardening & Tools](#browser-hardening--tools)
+- [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
@@ -55,6 +56,7 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 | :--- | :--- | :--- | :--- |
 | **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | Aktiv |
 | **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | In Arbeit |
+| **Kontrolle** | Live-Traffic | Analyse mit PCAPdroid & Werbe-ID Check | [Details](verification_and_monitoring.md) |
 
 ---
 
@@ -76,4 +78,3 @@ Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind
 ## 🛠️ Rettungsanker (Restore)
 Falls eine System-App versehentlich gelöscht wurde:
 `adb shell cmd package install-existing [PAKETNAME]`
-
