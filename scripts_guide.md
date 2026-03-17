@@ -16,3 +16,16 @@ Dieses Python-Skript hilft dir zu überwachen, ob Meta (Facebook/Instagram) nach
 2. Öffne das Terminal im Ordner und starte das Skript:
    ```bash
    python meta_settings_tracker.py
+
+   
+Anwendung am Smartphone (Termux)
+Du kannst das Skript auch direkt auf deinem Android-Gerät via Termux (F-Droid) laufen lassen:
+pkg install python
+python meta_settings_tracker.py
+🐚 ADB-Debloat Skript (adb_debloat.sh)
+Ein Shell-Skript für die schnelle Deaktivierung von Xiaomi-Bloatware via PC.
+Anwendung
+Verbinde dein Handy via ADB mit dem PC.
+Mache das Skript ausführbar: chmod +x adb_debloat.sh
+Starte es: ./adb_debloat.sh
+Hinweis: Nutze dieses Skript nur, wenn du weißt, welche Pakete es entfernt. Eine Liste der Pakete findest du in der culprits.md.
