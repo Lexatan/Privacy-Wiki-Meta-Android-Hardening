@@ -21,6 +21,7 @@
 - [Shizuku Ecosystem](shizuku_tools.md)
 - [Firewall Guide (NetGuard)](netguard_guide.md)
 - [First-Boot Checkliste](setup_guide.md)
+- [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 
 ---
 
