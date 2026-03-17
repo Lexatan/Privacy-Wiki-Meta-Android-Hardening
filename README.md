@@ -14,8 +14,6 @@
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
 - [Browser-Hardening & Tools](#browser-hardening--tools)
-- [Übeltäter-Liste (Culprit Apps)](culprits.md)
-- [Empfohlene Apps (Alternativen)](recommended_apps.md)
 
 
 
