@@ -60,3 +60,18 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 ## 🛠️ Rettungsanker (Restore)
 Falls eine System-App versehentlich gelöscht wurde, kann sie per ADB am PC wiederhergestellt werden:
 `adb shell cmd package install-existing [PAKETNAME]`
+---
+
+## 🌐 Browser-Hardening & Tools
+Um das Tracking im Web zu minimieren und Apps zu analysieren, werden folgende Ressourcen empfohlen:
+
+### Browser-Empfehlung
+* **Browser:** Nutze **Mull** (F-Droid) oder **Firefox**.
+* **Add-ons:** Installiere **uBlock Origin**. Aktiviere in den Einstellungen die "AdGuard" und "Fanboy" Filterlisten.
+* **Settings:** Stelle den "Schutz vor Aktivitätenverfolgung" auf **STRENG**.
+
+### Nützliche Analyse-Tools
+* [Exodus Privacy](https://reports.exodus-privacy.eu.org/) – Überprüfe, welche Tracker in deinen installierten Apps versteckt sind.
+* [F-Droid Store](https://f-droid.org/) – Die beste Quelle für Open-Source-Apps ohne integriertes Tracking.
+* [Plexus](https://plexus.techlore.tech/) – Prüfe, welche Apps ohne Google Play Services funktionieren.
+* 
