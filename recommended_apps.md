@@ -10,6 +10,26 @@ Diese Anwendungen ersetzen datenhungrige Standard-Apps und bieten Funktionen, di
 | **DNS/Firewall** | RethinkDNS | `rethinkinc.rethinkphp` | Blockiert Tracker auf Netzwerkebene und fungiert als Firewall. |
 | **App-Store** | F-Droid | `org.fdroid.fdroid` | Store für freie und quelloffene Apps ohne Tracking. |
 | **Analyse** | LibChecker | `com.absinthe.libchecker` | Zeigt an, welche Tracking-SDKs in deinen Apps verbaut sind. |
+# 🔄 Alternativen & Ersatz-Apps
+
+Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen (FOSS) für die gängigen System- und Google-Apps.
+
+| Original-App | Empfohlene Alternative | Quelle | Vorteil |
+| :--- | :--- | :--- | :--- |
+| **Google Fotos** | Ente Photos / Aves Libre | F-Droid | Kein Cloud-Zwang, lokale Verwaltung |
+| **YouTube** | NewPipe / YouTube ReVanced | GitHub | Keine Werbung, Hintergrund-Wiedergabe |
+| **Google Chrome** | Mull / Brave / Cromite | F-Droid | Starker Tracker-Blocker inklusive |
+| **Gboard (Tastatur)** | OpenBoard / Heliboard | F-Droid | Keine Internetberechtigung (kein Loggen) |
+| **Google Drive** | Proton Drive / Cryptomator | Play Store | Ende-zu-Ende Verschlüsselung |
+| **Google Maps** | Organic Maps / OsmAnd+ | F-Droid | Komplette Offline-Nutzung möglich |
+| **Gmail** | K-9 Mail (Thunderbird) / FairEmail | F-Droid | Open Source, mehr Privatsphäre |
+| **Notizen (Keep)** | Quillnote / Notesnook | F-Droid | Verschlüsselt & FOSS |
+| **Dateimanager** | Material Files / MiXplorer | F-Droid | Keine Werbung, Root-Support |
+
+---
+
+## 🛠️ Installations-Tipp
+Die meisten dieser Apps findest du im **F-Droid Store** oder über den **Neo Store** (modernerer Client). Apps wie ReVanced oder Proton Drive sind am besten direkt über deren offizielle Webseiten oder GitHub zu beziehen.
 
 ---
 
