@@ -7,10 +7,13 @@ Diese Anwendungen ersetzen datenhungrige Standard-Apps und bieten Funktionen, di
 | **Browser** | Mull | `nu.mull.mull` | Ein Firefox-Fork mit Fokus auf Sicherheit (Hardening). |
 | **System** | Shizuku | `moe.shizuku.privileged.api` | Ermöglicht System-Zugriff ohne Root für Apps wie Canta. |
 | **Debloating** | Canta | `org.samr7.canta` | Sicheres Entfernen von System-Apps via Shizuku. |
-| **DNS/Firewall** | RethinkDNS | `rethinkinc.rethinkphp` | Blockiert Tracker auf Netzwerkebene und fungiert als Firewall. |
+| **DNS/Firewall** | NetGuard | `eu.faircode.netguard` | Blockiert Tracker auf Netzwerkebe und fungiert als Firewall. |
 | **App-Store** | F-Droid | `org.fdroid.fdroid` | Store für freie und quelloffene Apps ohne Tracking. |
 | **Analyse** | LibChecker | `com.absinthe.libchecker` | Zeigt an, welche Tracking-SDKs in deinen Apps verbaut sind. |
-# 🔄 Alternativen & Ersatz-Apps
+
+---
+
+# 🔄 Alternativen & Ersatz-Apps (Substitution)
 
 Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen (FOSS) für die gängigen System- und Google-Apps.
 
@@ -28,10 +31,8 @@ Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen 
 
 ---
 
-## 🛠️ Installations-Tipp
-Die meisten dieser Apps findest du im **F-Droid Store** oder über den **Neo Store** (modernerer Client). Apps wie ReVanced oder Proton Drive sind am besten direkt über deren offizielle Webseiten oder GitHub zu beziehen.
-
----
-
-## 💡 Installations-Tipp
-Die Installation via **F-Droid** wird empfohlen, da diese Versionen oft "sauberer" sind als die im offiziellen Play Store. Für Shizuku ist einmalig die Aktivierung des "Wireless Debugging" in den Android-Entwickleroptionen nötig.
+## 💡 Installations-Tipps
+* **F-Droid & Neo Store:** Nutze vorrangig diese Stores, da die Versionen dort oft "sauberer" sind als im Play Store.
+* **GitHub/Offizielle Seiten:** Apps wie ReVanced oder Proton Drive sind am besten direkt über deren offizielle Kanäle zu beziehen.
+* **Shizuku:** Für die volle Funktionalität vieler dieser Tools ist einmalig die Aktivierung des "Wireless Debugging" in den Android-Entwickleroptionen nötig.
+* 
