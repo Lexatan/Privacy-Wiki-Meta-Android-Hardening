@@ -8,7 +8,6 @@
 > * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
 ---
-
 ## 📋 Inhaltsverzeichnis
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
@@ -16,6 +15,11 @@
 - [Browser-Hardening & Tools](#browser-hardening--tools)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
+- [Shizuku Ecosystem](shizuku_tools.md)
+- [Firewall Guide (NetGuard)](netguard_guide.md)
+- [First-Boot Checkliste](setup_guide.md)
+
+
 
 ---
 
