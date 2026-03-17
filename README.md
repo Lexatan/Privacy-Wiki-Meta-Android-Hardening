@@ -1,5 +1,7 @@
 # 🛡️ Privacy-Wiki: Meta & Android Hardening
 
+![Status](https://img.shields.io/badge/Status-Hardening_In_Progress-brightgreen)
+
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
 > 
@@ -8,6 +10,7 @@
 > * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
 ---
+
 ## 📋 Inhaltsverzeichnis
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
@@ -18,8 +21,6 @@
 - [Shizuku Ecosystem](shizuku_tools.md)
 - [Firewall Guide (NetGuard)](netguard_guide.md)
 - [First-Boot Checkliste](setup_guide.md)
-
-
 
 ---
 
