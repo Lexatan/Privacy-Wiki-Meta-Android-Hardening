@@ -7,7 +7,7 @@
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
 > 
-> Das Löschen falscher Systemkomponenten kann die Stabilität des Betriebssystems beeinträchtigen oder dazu führen, dass das Gerät nicht mehr startet (Bootloop). 
+> Das Löschen falscher Systemkomponenten kann die Stabilität des Betriebssystems beeinträchtigkeits oder dazu führen, dass das Gerät nicht mehr startet (Bootloop). 
 > * Erstelle **unbedingt ein vollständiges Backup** deiner Daten, bevor du Änderungen vornimmst.
 > * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
@@ -19,6 +19,7 @@
 - [Hardening Matrix](#hardening-matrix)
 - [Browser-Hardening & Tools](#browser-hardening--tools)
 - [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
+- [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
@@ -57,6 +58,7 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 | **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | Aktiv |
 | **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | In Arbeit |
 | **Kontrolle** | Live-Traffic | Analyse mit PCAPdroid & Werbe-ID Check | [Details](verification_and_monitoring.md) |
+| **Überwachung** | Python-Scripts | Tracking von Meta-Einstellungen | [Scripts Guide](scripts_guide.md) |
 
 ---
 
@@ -71,7 +73,7 @@ Empfohlene Ressourcen für sicheres Surfen:
 ---
 
 ## 🤝 Mitwirken
-Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind herzlich willkommen! Schau in die [CONTRIBUTING.md](CONTRIBUTING.md), um zu sehen, wie du helfen kannst.
+Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind herzlich willkommen! Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues/new/choose) oder schau in die [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
