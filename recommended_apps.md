@@ -35,4 +35,7 @@ Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen 
 * **F-Droid & Neo Store:** Nutze vorrangig diese Stores, da die Versionen dort oft "sauberer" sind als im Play Store.
 * **GitHub/Offizielle Seiten:** Apps wie ReVanced oder Proton Drive sind am besten direkt über deren offizielle Kanäle zu beziehen.
 * **Shizuku:** Für die volle Funktionalität vieler dieser Tools ist einmalig die Aktivierung des "Wireless Debugging" in den Android-Entwickleroptionen nötig.
+
+
+* **YouTube ReVanced:** Für die Nutzung wird der **ReVanced Manager** benötigt, um die originale YouTube-APK mit Patches zu versehen. Nutze für den Download von Manager und GmsCore ausschließlich die offizielle GitHub-Seite des ReVanced-Teams, um Schadsoftware zu vermeiden.
 * 
