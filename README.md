@@ -1,3 +1,5 @@
+![Privacy Wiki Banner](banner.png)
+
 # 🛡️ Privacy-Wiki: Meta & Android Hardening
 
 ![Status](https://img.shields.io/badge/Status-Hardening_In_Progress-brightgreen)
@@ -16,12 +18,12 @@
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
 - [Browser-Hardening & Tools](#browser-hardening--tools)
+- [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [Shizuku Ecosystem](shizuku_tools.md)
 - [Firewall Guide (NetGuard)](netguard_guide.md)
 - [First-Boot Checkliste](setup_guide.md)
-- [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 
 ---
 
@@ -68,3 +70,4 @@ Empfohlene Ressourcen für sicheres Surfen:
 ## 🛠️ Rettungsanker (Restore)
 Falls eine System-App versehentlich gelöscht wurde:
 `adb shell cmd package install-existing [PAKETNAME]`
+
