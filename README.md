@@ -56,8 +56,8 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 | Kategorie | Technik | Beschreibung | Status |
 | :--- | :--- | :--- | :--- |
-| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | Aktiv |
-| **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | In Arbeit |
+| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) oder verschlüsseltes Quad9 DNS (`dns.quad9.net`) | Aktiv |
+| **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | [Bereit](culprits.md) |
 | **🚨 Sicherheit** | **Danger Zone** | **Kritische Apps NICHT löschen!** | **[Details](danger_zone.md)** |
 | **Kontrolle** | Live-Traffic | Analyse mit PCAPdroid & Werbe-ID Check | [Details](verification_and_monitoring.md) |
 | **Überwachung** | Python-Scripts | Tracking von Meta-Einstellungen | [Scripts Guide](scripts_guide.md) |
@@ -88,3 +88,4 @@ Wenn dir dieses Wiki geholfen hat, dein Handy schneller und privater zu machen, 
 
 * **Fragen/Probleme:** Nutze die [GitHub Issues](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues).
 * **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
+* 
