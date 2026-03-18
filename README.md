@@ -7,7 +7,7 @@
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
 > 
-> Das Löschen falscher Systemkomponenten kann die Stabilität des Betriebssystems beeinträchtigkeits oder dazu führen, dass das Gerät nicht mehr startet (Bootloop). 
+> Das Löschen falscher Systemkomponenten kann die Stabilität des Betriebssystems beeinträchtigen oder dazu führen, dass das Gerät nicht mehr startet (Bootloop). 
 > * Erstelle **unbedingt ein vollständiges Backup** deiner Daten, bevor du Änderungen vornimmst.
 > * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
@@ -57,6 +57,7 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 | :--- | :--- | :--- | :--- |
 | **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | Aktiv |
 | **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | In Arbeit |
+| **🚨 Sicherheit** | **Danger Zone** | **Kritische Apps NICHT löschen!** | **[Details](danger_zone.md)** |
 | **Kontrolle** | Live-Traffic | Analyse mit PCAPdroid & Werbe-ID Check | [Details](verification_and_monitoring.md) |
 | **Überwachung** | Python-Scripts | Tracking von Meta-Einstellungen | [Scripts Guide](scripts_guide.md) |
 
