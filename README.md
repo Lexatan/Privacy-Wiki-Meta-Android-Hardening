@@ -3,6 +3,7 @@
 # 🛡️ Privacy-Wiki: Meta & Android Hardening
 
 ![Status](https://img.shields.io/badge/Status-Hardening_In_Progress-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
@@ -21,7 +22,7 @@
 - [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
 - [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
-- [🛡️ Sicherheit (Security Policy)](SECURITY.md)
+- [🛡️ Sicherheit & Richtlinien](#-sicherheit--richtlinien)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [Shizuku Ecosystem](shizuku_tools.md)
@@ -34,12 +35,12 @@
 Um das Tracking und die Werbung auf Systemebene zu minimieren, sollten folgende Punkte durchgeführt werden:
 
 ### 1. System-Ads (MSA) deaktivieren
-- Pfad: `Einstellungen -> Passwörter & Sicherheit -> Autorisierung & Widerruf`.
-- Aktion: Den Schalter bei **msa** auf AUS stellen.
+- **Pfad:** `Einstellungen -> Passwörter & Sicherheit -> Autorisierung & Widerruf`.
+- **Aktion:** Den Schalter bei **msa** auf AUS stellen.
 
 ### 2. Werbe-ID löschen
-- Pfad: `Einstellungen -> Datenschutz -> Werbung`.
-- Aktion: **Werbe-ID löschen** wählen.
+- **Pfad:** `Einstellungen -> Datenschutz -> Werbung`.
+- **Aktion:** **Werbe-ID löschen** wählen.
 
 ---
 
@@ -47,8 +48,8 @@ Um das Tracking und die Werbung auf Systemebene zu minimieren, sollten folgende 
 Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 ### 1. Aktivitäten außerhalb von Meta-Technologien
-- Pfad: `Kontozentrum -> Deine Informationen und Berechtigungen -> Deine Aktivitäten außerhalb von Meta-Technologien`.
-- Aktion: **Künftige Aktivitäten trennen** wählen.
+- **Pfad:** `Kontozentrum -> Deine Informationen und Berechtigungen -> Deine Aktivitäten außerhalb von Meta-Technologien`.
+- **Aktion:** **Künftige Aktivitäten trennen** wählen.
 
 ---
 
@@ -56,7 +57,7 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 | Kategorie | Technik | Beschreibung | Status |
 | :--- | :--- | :--- | :--- |
-| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) oder verschlüsseltes Quad9 DNS (`dns.quad9.net`) | Aktiv |
+| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) oder Quad9 (`dns.quad9.net`) | ✅ Aktiv |
 | **System** | Debloating | Unnötige Apps via Canta/Shizuku entfernen | [Bereit](culprits.md) |
 | **🚨 Sicherheit** | **Danger Zone** | **Kritische Apps NICHT löschen!** | **[Details](danger_zone.md)** |
 | **Kontrolle** | Live-Traffic | Analyse mit PCAPdroid & Werbe-ID Check | [Details](verification_and_monitoring.md) |
@@ -65,7 +66,16 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 ---
 
 ## 🤝 Mitwirken
-Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind herzlich willkommen! Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues/new/choose) oder schau in die [CONTRIBUTING.md](CONTRIBUTING.md).
+Beiträge sind herzlich willkommen! Bevor du startest, lies bitte unseren [Verhaltenskodex (Code of Conduct)](CODE_OF_CONDUCT.md).
+
+Du hast eine App gefunden oder einen Fehler entdeckt? 
+Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues/new/choose) oder schau in die [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 🛡️ Sicherheit & Richtlinien
+- **Lizenz:** Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
+- **Security Policy:** Details findest du in unserer [SECURITY.md](SECURITY.md).
 
 ---
 
