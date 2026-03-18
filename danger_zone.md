@@ -1,45 +1,40 @@
-# ⚠️ Gefahrenzone: System-Apps (NICHT LÖSCHEN!)
+# ⚠️ Gefahrenzone (Bloatware, die bleiben muss!)
 
-Das Deinstallieren oder Deaktivieren der folgenden Pakete führt fast sicher zu einem **Bootloop** oder macht das System instabil. Finger weg!
+In diesem Bereich listen wir Anwendungen und Dienste auf, die **unter keinen Umständen** gelöscht oder deaktiviert werden sollten. Das Entfernen dieser Pakete führt unweigerlich zu einem **Bootloop** (Handy startet nicht mehr) oder macht das System unbedienbar.
 
----
-
-## 🚫 Kategorie: Bootloop-Gefahr (Niemals anfassen!)
-
-Diese Pakete sind der Kern von Android und der MIUI/HyperOS-Oberfläche.
-
-| Paketname | App-Name / Funktion | Grund für das Verbot |
+| Paketname | Anzeigename | Risiko bei Deaktivierung |
 | :--- | :--- | :--- |
-| `com.miui.securitycenter` | Sicherheits-App | Das Herz von MIUI. Löschen führt sofort zum Bootloop. |
-| `com.miui.home` | System-Launcher | Ohne Launcher kein Interface. Nur löschen, wenn ein anderer fest als System-App installiert ist. |
-| `com.xiaomi.finddevice` | Gerät finden | Tief im System verankert. Verursacht Abstürze beim Booten. |
-| `com.google.android.gsf` | Google Services Framework | Essenziell für alle Google-Dienste. |
-| `com.android.settings` | Einstellungen | Ohne die Einstellungen-App ist das Handy nicht mehr konfigurierbar. |
-| `com.miui.powerkeeper` | Akku-Optimierung | MIUI braucht diesen Dienst für das Energiemanagement. |
+| `com.miui.securitycenter` | Security Center | **Kritisch:** Das Herzstück von MIUI. Ohne diese App startet das System nicht mehr. |
+| `com.miui.home` | System-Launcher | **Kritisch:** Ohne Launcher hast du keinen Homescreen und keine Navigation. |
+| `com.miui.systemui` | System UI | **Kritisch:** Verwaltet Statusleiste und Benachrichtigungen. Führt zu schwarzem Bildschirm. |
+| `com.xiaomi.finddevice` | Find Device | **Kritisch:** Löst beim Booten eine Sicherheitsverriegelung aus ("Find Device closed unexpectedly"). |
+| `com.miui.contentcatcher` | Content Catcher | Kann zu Abstürzen in den Systemeinstellungen führen. |
+| `com.android.settings` | Einstellungen | Ohne die Einstellungs-App ist das Gerät nicht mehr konfigurierbar. |
+| `com.android.systemui` | Android SystemUI | Grundlegende Android-Oberfläche; führt sofort zum Absturz. |
 
 ---
 
-## 🟡 Kategorie: Funktionale Einschränkungen (Kritisch)
-
-Das System bootet zwar noch, aber wichtige Dinge funktionieren nicht mehr korrekt:
-
-* **`com.miui.gallery`**: Ohne Ersatz (wie *Aves*) können Drittanbieter-Apps oft keine Bilder mehr auswählen.
-* **`com.android.vending` (Play Store)**: Notwendig für In-App-Käufe und Lizenzprüfungen.
-* **`com.android.providers.telephony`**: Führt zum Verlust der Mobilfunkverbindung (kein Netz, keine SMS).
-* **`com.miui.extraphoto`**: Notwendig für Kamera-Features; ohne dieses Paket stürzt die Kamera-App oft ab.
+## 🚩 Symptome bei falschem Debloating
+Wenn du eine dieser Apps löschst, treten meist folgende Probleme auf:
+1. **Bootloop:** Das Handy bleibt beim Poco/Xiaomi-Logo hängen.
+2. **System-UI Crash:** Der Bildschirm flackert oder bleibt schwarz.
+3. **Recovery-Modus:** Das Handy bootet automatisch in den Wiederherstellungs-Modus.
 
 ---
 
-## 💡 Faustregel
-Wenn du dir bei einer App unsicher bist: **Lieber erst mal nur "Deaktivieren" (Freeze) statt "Deinstallieren"**. Mit Apps wie **Hail** oder **App Ops** kannst du die App schlafen legen. Wenn das System nach 24 Stunden noch stabil läuft, ist sie meist sicher.
+## 🆘 Notfall-Plan (Falls es passiert ist)
+
+Sollte dein Handy nicht mehr starten, hast du zwei Möglichkeiten:
+
+### 1. Rettung via ADB (Falls USB-Debugging noch aktiv ist)
+Verbinde das Handy mit dem PC und versuche das Paket sofort wieder zu installieren:
+`adb shell cmd package install-existing [PAKETNAME]`
+
+### 2. Hard Reset (Letzter Ausweg - Datenverlust!)
+Wenn ADB nicht mehr reagiert:
+1. Halte **Power + Lauter** gedrückt, bis das Recovery-Menü erscheint.
+2. Wähle **"Wipe Data"** (löscht alle deine privaten Dateien!).
+3. Bestätige mit **"Confirm"**. Das Handy wird auf Werkseinstellungen zurückgesetzt.
 
 ---
-
-## 🚑 Im Notfall (Bootloop)
-Sollte dein Handy nicht mehr starten:
-
-1. **Recovery Modus:** Boote in den Recovery Modus (meist Power + Lautstärke Lauter halten).
-2. **Wipe Data:** (Werkseinstellungen) – **Achtung: Alle Daten gehen verloren!**
-3. **ADB Restore:** Falls USB-Debugging noch aktiv ist, versuche das Paket via PC wieder zu installieren:
-   `adb shell cmd package install-existing [PAKETNAME]`
-   
+*Hinweis: Weniger ist manchmal mehr. Wenn du dir bei einer App unsicher bist, lass sie lieber installiert oder "friere" sie erst einmal nur ein, anstatt sie komplett zu löschen.*
