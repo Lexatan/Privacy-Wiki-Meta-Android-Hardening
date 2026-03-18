@@ -18,11 +18,11 @@
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [Hardening Matrix](#hardening-matrix)
-- [Browser-Hardening & Tools](#browser-hardening--tools)
+- [Browser-Hardening & Tools](#browser)
 - [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
 - [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
-- [🛡️ Sicherheit & Richtlinien](#-sicherheit--richtlinien)
+- [🛡️ Sicherheit & Richtlinien](#sicherheit)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [Shizuku Ecosystem](shizuku_tools.md)
@@ -65,19 +65,16 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 ---
 
-## Browser-Hardening & Tools
+## <a name="browser"></a>Browser-Hardening & Tools
 Hier findest du Empfehlungen, um das Tracking während des Surfens zu minimieren und deine Privatsphäre auf App-Ebene zu schützen.
 
 ### 1. Sicherer Browser (Mull / Fennec)
-- **Empfehlung:** Nutze **Mull** (ein gehärteter Firefox-Fork) oder **Cromite**.
+- **Empfehlung:** Nutze **Mull** (gehärteter Firefox-Fork) oder **Cromite**.
 - **Konfiguration:** Aktiviere "Strengen Schutz" vor Aktivitätenverfolgung und installiere das Add-on **uBlock Origin**.
 
 ### 2. DNS-over-TLS (Privates DNS)
 - **Pfad:** `Einstellungen -> Verbindung & Teilen -> Privates DNS`.
-- **Hostname:** `dns.adguard.com` (Filtert Werbung) oder `dns.quad9.net` (Sicherheit).
-
-### 3. App-Analyse (LibChecker)
-- Nutze **LibChecker** aus F-Droid, um zu sehen, welche Tracker (wie Facebook SDK oder Google Firebase) in deinen installierten Apps versteckt sind.
+- **Hostname:** `dns.adguard.com` (Werbefilter) oder `dns.quad9.net` (Sicherheit).
 
 ---
 
@@ -89,9 +86,9 @@ Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Andro
 
 ---
 
-## 🛡️ Sicherheit & Richtlinien
+## <a name="sicherheit"></a>🛡️ Sicherheit & Richtlinien
 - **Lizenz:** Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
-- **Security Policy:** Details findest du in einer unserer [SECURITY.md](SECURITY.md).
+- **Security Policy:** Details findest du in unserer [SECURITY.md](SECURITY.md).
 
 ---
 
@@ -114,4 +111,3 @@ Wenn dir dieses Wiki geholfen hat, dein Handy schneller und privater zu machen, 
 
 * **Fragen/Probleme:** Nutze die [GitHub Issues](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues).
 * **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
-* 
