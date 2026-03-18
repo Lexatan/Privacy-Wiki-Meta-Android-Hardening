@@ -21,6 +21,7 @@
 - [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
 - [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
+- [🛡️ Sicherheit (Security Policy)](SECURITY.md)
 - [Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [Shizuku Ecosystem](shizuku_tools.md)
@@ -63,16 +64,6 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 ---
 
-## Browser-Hardening & Tools
-Empfohlene Ressourcen für sicheres Surfen:
-
-* **Browser:** Nutze **Mull** (F-Droid) oder **Firefox**.
-* **Add-ons:** Installiere **uBlock Origin**.
-* **Analyse:** [Exodus Privacy](https://reports.exodus-privacy.eu.org/) zum Prüfen von App-Trackern.
-
-
----
-
 ## 🤝 Mitwirken
 Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind herzlich willkommen! Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues/new/choose) oder schau in die [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -81,3 +72,19 @@ Du hast eine App gefunden, die fehlt, oder einen Fehler entdeckt? Beiträge sind
 ## 🛠️ Rettungsanker (Restore)
 Falls eine System-App versehentlich gelöscht wurde:
 `adb shell cmd package install-existing [PAKETNAME]`
+
+---
+
+## 🏆 Top Contributors
+Vielen Dank an alle, die helfen, dieses Wiki aktuell und sicher zu halten!
+
+* **[Lexatan]** (Project Lead)
+* *Werde Teil der Liste – reiche einen Pull Request ein!*
+
+---
+
+## ☕ Support & Kontakt
+Wenn dir dieses Wiki geholfen hat, dein Handy schneller und privater zu machen, freue ich mich über ein ⭐ für dieses Repository!
+
+* **Fragen/Probleme:** Nutze die [GitHub Issues](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues).
+* **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
