@@ -65,6 +65,22 @@ Zentrale Schritte, um die Datensammlung durch Meta einzuschränken:
 
 ---
 
+## Browser-Hardening & Tools
+Hier findest du Empfehlungen, um das Tracking während des Surfens zu minimieren und deine Privatsphäre auf App-Ebene zu schützen.
+
+### 1. Sicherer Browser (Mull / Fennec)
+- **Empfehlung:** Nutze **Mull** (ein gehärteter Firefox-Fork) oder **Cromite**.
+- **Konfiguration:** Aktiviere "Strengen Schutz" vor Aktivitätenverfolgung und installiere das Add-on **uBlock Origin**.
+
+### 2. DNS-over-TLS (Privates DNS)
+- **Pfad:** `Einstellungen -> Verbindung & Teilen -> Privates DNS`.
+- **Hostname:** `dns.adguard.com` (Filtert Werbung) oder `dns.quad9.net` (Sicherheit).
+
+### 3. App-Analyse (LibChecker)
+- Nutze **LibChecker** aus F-Droid, um zu sehen, welche Tracker (wie Facebook SDK oder Google Firebase) in deinen installierten Apps versteckt sind.
+
+---
+
 ## 🤝 Mitwirken
 Beiträge sind herzlich willkommen! Bevor du startest, lies bitte unseren [Verhaltenskodex (Code of Conduct)](CODE_OF_CONDUCT.md).
 
@@ -75,7 +91,7 @@ Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Andro
 
 ## 🛡️ Sicherheit & Richtlinien
 - **Lizenz:** Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
-- **Security Policy:** Details findest du in unserer [SECURITY.md](SECURITY.md).
+- **Security Policy:** Details findest du in einer unserer [SECURITY.md](SECURITY.md).
 
 ---
 
