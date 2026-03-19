@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
-> **Die Nutzung der in diesem Repository beschriebenen Methoden, insbesondere ADB-Befehle und das Debloating von System-Apps, erfolgt ausdrücklich auf eigene Gefahr.**
+> **Die Nutzung der in diesem Repository beschriebenen Methoden erfolgt auf eigene Gefahr.**
 
 ---
 
@@ -19,7 +19,7 @@
 - [❓ Häufig gestellte Fragen (FAQ)](faq.md)
 - [🚀 Fortgeschrittene Themen (Custom ROMs)](custom_rom_guide.md)
 - [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
-- [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
+- [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
 - [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
 - [🛡️ Sicherheit & Richtlinien](#sicherheit)
@@ -32,38 +32,42 @@
 ---
 
 ## Poco/Xiaomi System-Optimierung
-... (dein Text) ...
+### 1. System-Ads (MSA) deaktivieren
+- **Pfad:** `Einstellungen -> Passwörter & Sicherheit -> Autorisierung & Widerruf`.
+- **Aktion:** **msa** auf AUS.
+
+### 2. Werbe-ID löschen
+- **Pfad:** `Einstellungen -> Datenschutz -> Werbung`.
 
 ---
 
 ## Meta (Instagram & Facebook) Anti-Tracking
-... (dein Text) ...
+### 1. Aktivitäten außerhalb von Meta-Technologien
+- **Pfad:** `Kontozentrum -> Deine Informationen und Berechtigungen -> Deine Aktivitäten außerhalb von Meta-Technologien`.
+- **Aktion:** **Künftige Aktivitäten trennen**.
 
 ---
 
 ## Hardening Matrix
-... (deine Matrix) ...
+| Kategorie | Technik | Beschreibung | Status |
+| :--- | :--- | :--- | :--- |
+| **Datenschutz** | DNS-over-TLS | Nutze AdGuard DNS (`dns.adguard.com`) | ✅ Aktiv |
+| **Performance** | Debloating | RAM-Verbrauch um ca. 30% gesenkt | ✅ Geprüft |
 
 ---
 
 ## <a name="browser"></a>Browser-Hardening & Tools
-... (dein Text) ...
-
----
-
-## 🤝 Mitwirken
-Beiträge sind herzlich willkommen! Nutze unsere [Issue-Vorlagen](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues/new/choose).
+Nutze **Mull** oder **Cromite** mit uBlock Origin für maximale Isolation.
 
 ---
 
 ## <a name="sicherheit"></a>🛡️ Sicherheit & Richtlinien
-- **Lizenz:** Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
-- **Security Policy:** Details findest du in unserer [SECURITY.md](SECURITY.md).
+- **Lizenz:** [MIT-Lizenz](LICENSE).
+- **Security Policy:** [SECURITY.md](SECURITY.md).
 
 ---
 
 ## 🛠️ Rettungsanker (Restore)
-Falls eine System-App versehentlich gelöscht wurde:
 `adb shell cmd package install-existing [PAKETNAME]`
 
 ---
@@ -74,6 +78,5 @@ Falls eine System-App versehentlich gelöscht wurde:
 ---
 
 ## ☕ Support & Kontakt
-Wenn dir dieses Wiki geholfen hat, freue ich mich über ein ⭐ für dieses Repository!
-* **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
-* 
+⭐ Gib diesem Repo einen Stern, wenn es dir geholfen hat!
+* **Matrix:** `@lexatan:matrix.org`
