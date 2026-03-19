@@ -102,8 +102,7 @@ Beiträge sind herzlich willkommen! Du hast eine neue Tracking-App gefunden oder
 Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen, kannst du sie mit diesem Befehl via ADB wieder aktivieren:
 
 ```bash
-# Beispiel: Google Fotos wiederherstellen
-adb shell cmd package install-existing com.google.android.apps.photos
+adb shell cmd package install-existing [PAKETNAME]
 
 
 ---
