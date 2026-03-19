@@ -103,24 +103,3 @@ Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehl
 
 ```bash
 adb shell cmd package install-existing [PAKETNAME]
-
-
----
-
-🏆 Top Contributors
-
-Vielen Dank an die Community für über 120 Clones und das stetige Feedback!
-
-· [Lexatan] (Project Lead)
-· Werde Teil der Liste – reiche einen Pull Request ein!
-
----
-
-☕ Support & Kontakt
-
-Wenn dir dieses Wiki hilft, dein Handy privater und schneller zu machen, freue ich mich über ein ⭐ für dieses Repository!
-
-· Fragen/Probleme: Nutze die GitHub Issues.
-· Direktkontakt: Erreichbar via Matrix unter @lexatan:matrix.org.
-
-```
