@@ -104,4 +104,4 @@ Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehl
 ```bash
 adb shell cmd package install-existing [PAKETNAME]
 
----
+
