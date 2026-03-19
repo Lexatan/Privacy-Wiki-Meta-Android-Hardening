@@ -7,7 +7,8 @@
 ![Community](https://img.shields.io/badge/Clones-120%2B-orange)
 
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
-> **Die Nutzung der in diesem Repository beschriebenen Methoden erfolgt ausdrücklich auf eigene Gefahr.** > Das Entfernen von System-Apps oder das Ändern von DNS-Einstellungen kann die Stabilität des Betriebssystems beeinträchtigen. 
+> **Die Nutzung der in diesem Repository beschriebenen Methoden erfolgt ausdrücklich auf eigene Gefahr.**
+> Das Entfernen von System-Apps oder das Ändern von DNS-Einstellungen kann die Stabilität des Betriebssystems beeinträchtigen.
 > * Erstelle **unbedingt ein vollständiges Backup** deiner Daten, bevor du Änderungen vornimmst.
 > * Ich übernehme keine Haftung für Schäden, Datenverlust oder defekte Geräte.
 
@@ -73,14 +74,14 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 Ein sicherer Browser ist dein wichtigstes Werkzeug gegen Web-Tracking. Standard-Browser sollten gemieden werden.
 
 ### 1. Empfohlene Browser (F-Droid)
-* **Mull:** Ein extrem gehärteter Firefox-Fork. Blockiert standardmäßig fast alle Fingerprinting-Versuche.
-* **Cromite:** Ein entgoogelter Chromium-Fork mit starkem integriertem Adblocker.
+- **Mull:** Ein extrem gehärteter Firefox-Fork. Blockiert standardmäßig fast alle Fingerprinting-Versuche.
+- **Cromite:** Ein entgoogelter Chromium-Fork mit starkem integriertem Adblocker.
 
 ### 2. Systemweites Privates DNS (DoT)
 Konfiguriere dies unter `Einstellungen -> Verbindung & Teilen -> Privates DNS`:
-* **Quad9:** `dns.quad9.net` (Hervorragender Schutz vor bösartigen Domains & Malware).
-* **Mullvad DNS:** `base.dns.mullvad.net` (Fokus auf Anonymität, striktes No-Logging).
-* **AdGuard:** `dns.adguard.com` (Aggressiver Filter für In-App Werbung).
+- **Quad9:** `dns.quad9.net` (Hervorragender Schutz vor bösartigen Domains & Malware).
+- **Mullvad DNS:** `base.dns.mullvad.net` (Fokus auf Anonymität, striktes No-Logging).
+- **AdGuard:** `dns.adguard.com` (Aggressiver Filter für In-App Werbung).
 
 ---
 
@@ -98,22 +99,35 @@ Beiträge sind herzlich willkommen! Du hast eine neue Tracking-App gefunden oder
 ---
 
 ## 🛠️ Rettungsanker (Restore)
-Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen:
+Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen, kannst du sie mit ADB wiederherstellen:
 
 ```bash
-adb shell cmd package install-existing [PAKETNAME]
+# Beispiel: Google Fotos wiederherstellen
+adb shell cmd package install-existing com.google.android.apps.photos
+# 🛠️ Rettungsanker (Restore)
+Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen, kannst du sie mit ADB wiederherstellen:
+
+```bash
+# Beispiel: Google Fotos wiederherstellen
+adb shell cmd package install-existing com.google.android.apps.photos
+```
 
 ---
 
-## 🏆 Top Contributors
+🏆 Top Contributors
+
 Vielen Dank an die Community für über 120 Clones und das stetige Feedback!
-* **[Lexatan]** (Project Lead)
-* *Werde Teil der Liste – reiche einen Pull Request ein!*
+
+· [Lexatan] (Project Lead)
+· Werde Teil der Liste – reiche einen Pull Request ein!
 
 ---
 
-## ☕ Support & Kontakt
+☕ Support & Kontakt
+
 Wenn dir dieses Wiki hilft, dein Handy privater und schneller zu machen, freue ich mich über ein ⭐ für dieses Repository!
 
-* **Fragen/Probleme:** Nutze die [GitHub Issues](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues).
-* **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
+· Fragen/Probleme: Nutze die GitHub Issues.
+· Direktkontakt: Erreichbar via Matrix unter @lexatan:matrix.org.
+
+```
