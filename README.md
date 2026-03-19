@@ -105,16 +105,3 @@ Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehl
 adb shell cmd package install-existing [PAKETNAME]
 
 ---
-
-## 🏆 Top Contributors
-Vielen Dank an die Community für über **250 Clones** in nur 3 Tagen! 🚀
-* **[Lexatan]** (Project Lead)
-* *Werde Teil der Liste – reiche einen Pull Request ein!*
-
----
-
-## ☕ Support & Kontakt
-Wenn dir dieses Wiki hilft, dein Handy privater und schneller zu machen, freue ich mich über ein ⭐ für dieses Repository!
-
-* **Fragen/Probleme:** Nutze die [GitHub Issues](https://github.com/Lexatan/Privacy-Wiki-Meta-Android-Hardening/issues).
-* **Direktkontakt:** Erreichbar via Matrix unter `@lexatan:matrix.org`.
