@@ -17,8 +17,10 @@
 ## 📋 Inhaltsverzeichnis
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
+- [🧪 App-Isolation (Quarantäne)](app_isolation.md)
 - [Hardening Matrix](#hardening-matrix)
 - [Browser-Hardening & Tools](#browser)
+- [❓ Häufig gestellte Fragen (FAQ)](faq.md)
 - [🔍 Überprüfung & Monitoring (Verification)](verification_and_monitoring.md)
 - [🛠️ Automatisierung & Skripte](scripts_guide.md)
 - [⚠️ Gefahrenzone (Bloatware, die bleiben muss!)](danger_zone.md)
