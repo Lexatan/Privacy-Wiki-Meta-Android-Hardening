@@ -99,6 +99,7 @@ Beiträge sind herzlich willkommen! Du hast eine neue Tracking-App gefunden oder
 
 ## 🛠️ Rettungsanker (Restore)
 Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen:
+
 ```bash
 adb shell cmd package install-existing [PAKETNAME]
 
