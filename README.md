@@ -16,6 +16,7 @@
 
 ## 📋 Inhaltsverzeichnis
 - [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
+- * [📱 Android & Poco Hardening (Systemeinstellungen)](android-settings.md)
 - [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [🧪 App-Isolation (Quarantäne)](app_isolation.md)
 - [Hardening Matrix](#hardening-matrix)
