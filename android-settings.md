@@ -26,3 +26,5 @@ Dieser Guide führt dich durch die essenziellen Systemeinstellungen, um das Trac
 ---
 
 > **Tipp:** Hardening ist ein Prozess, kein Einmal-Event. Prüfe nach jedem System-Update, ob Xiaomi oder Google Einstellungen heimlich zurückgesetzt haben.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
