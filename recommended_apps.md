@@ -38,4 +38,4 @@ Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen 
 
 
 * **YouTube ReVanced:** Für die Nutzung wird der **ReVanced Manager** benötigt, um die originale YouTube-APK mit Patches zu versehen. Nutze für den Download von Manager und GmsCore ausschließlich die offizielle GitHub-Seite des ReVanced-Teams, um Schadsoftware zu vermeiden.
-* 
+  
