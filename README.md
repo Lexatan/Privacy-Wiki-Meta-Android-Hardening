@@ -33,7 +33,8 @@
 - [Shizuku Ecosystem](shizuku_tools.md)
 - [Firewall Guide (NetGuard)](netguard_guide.md)
 - [First-Boot Checkliste](setup_guide.md)
-
+- [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
+  
 ---
 
 ## Poco/Xiaomi System-Optimierung
