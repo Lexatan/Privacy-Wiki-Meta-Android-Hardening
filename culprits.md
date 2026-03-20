@@ -7,6 +7,8 @@ Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Dat
 | `com.miui.msa.global` | MSA (System Ads) | Integration von Werbeanzeigen in System-Apps. | 🔴 Sofort weg |
 | `com.miui.analytics` | Analytics | Übermittlung von Telemetrie- und Nutzungsdaten an Xiaomi. | 🔴 Sofort weg |
 | `com.miui.daemon` | MiuiDaemon | Sammelt Hintergrund-Statistiken und Performance-Daten. | 🔴 Empfohlen |
+| `com.miui.joyose` | Joyose | Sendet massiv Telemetriedaten; drosselt teils die Performance. | 🔴 Empfohlen |
+| `com.xiaomi.glance.payload` | Glance (Lockscreen) | Werbe-Karussell auf dem Sperrbildschirm; lädt ständig Daten. | 🔴 Sofort weg |
 | `com.xiaomi.mipicks` | GetApps | Alternativer App-Store mit häufigen Push-Benachrichtigungen. | 🟡 Optional |
 | `com.miui.hybrid.accessory` | Quick Apps | Dienst für Instant-Apps; trackt App-Aufrufe im Hintergrund. | 🔴 Empfohlen |
 | `com.miui.yellowpage` | Yellow Pages | Branchenverzeichnis-Dienst; sendet oft Standortdaten. | 🟡 Optional |
@@ -23,7 +25,8 @@ Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Dat
 1.  **Vorbereitung:** Sicherstellen, dass die erforderliche Umgebung (z. B. **Shizuku**) korrekt konfiguriert ist.
 2.  **Identifikation:** Gezielte Suche nach den oben genannten Paketnamen in der App-Verwaltung (z. B. in **Canta**).
 3.  **Deaktivierung:** Entfernen oder Deaktivieren der Dienste.
-    * *Hinweis:* Kritische Systemkomponenten (wie der System-Launcher oder Kern-Frameworks) sollten nicht ohne genaue Kenntnis modifiziert werden.
+    *   **Profi-Tipp:** In Canta kannst du Apps oft erst einmal **"Einfrieren" (Freeze)**. So testest du die Systemstabilität, bevor du sie endgültig löschst.
+    *   *Hinweis:* Kritische Systemkomponenten (wie der System-Launcher oder Kern-Frameworks) sollten nicht ohne genaue Kenntnis modifiziert werden.
 
 ---
 
@@ -54,4 +57,3 @@ Prüfe in den Android-Einstellungen kritisch:
 *   Warum braucht eine Taschenrechner-App Zugriff auf deine **Kontakte**?
 *   Warum verlangt ein Dateimanager den **Standort**?
 *   **Regel:** Jede Berechtigung, die nicht zwingend für die Kernfunktion nötig ist, ist ein potenzieller Datenabfluss.
-  
