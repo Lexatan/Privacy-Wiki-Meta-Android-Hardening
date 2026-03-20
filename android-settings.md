@@ -1,45 +1,28 @@
-# Comprehensive Android and Poco/Xiaomi Anti-Tracking Guide
+# 📱 Android & Poco/Xiaomi Hardening Guide
 
-## Overview
-This guide covers essential steps and tips to enhance privacy and reduce tracking on Android devices, specifically focusing on Poco and Xiaomi brands. The guidelines provided will help users maintain better control over their personal data.
+Dieser Guide führt dich durch die essenziellen Systemeinstellungen, um das Tracking auf Android-Basis (insbesondere MIUI/HyperOS) drastisch zu reduzieren.
 
-## 1. Device Settings
-### a. Permission Management
-- **Review App Permissions**: Regularly check and modify app permissions in **Settings > Apps > [App Name] > Permissions**.
-- **Restrict Location Access**: Set location access to **"Allow only while using the app"** or **"Deny"**.
+## 1. Berechtigungen & App-Kontrolle
+*   **Rechte-Audit:** Prüfe unter **Einstellungen > Apps > Berechtigungen**, welche Apps Zugriff auf Kontakte, SMS oder das Mikrofon haben. Entziehe alles, was für die Kernfunktion nicht nötig ist.
+*   **Standort-Hygiene:** Stelle den Standortzugriff auf **"Nur beim Verwenden der App zulassen"**. Deaktiviere unter **Standort > Standortdienste** die "WLAN-Suche" und "Bluetooth-Suche" – diese tracken dich auch bei ausgeschaltetem WLAN/BT.
 
-### b. Privacy Settings
-- **Disable Ad Personalization**: Navigate to **Settings > Google > Ads** and toggle off **"Opt out of ads personalization"**.
-- **Manage Google Account Privacy**: Go to **Settings > Google > Manage your Google Account**, review privacy settings and adjust them accordingly.
+## 2. Google & Identitäts-Tracking
+*   **Werbe-ID löschen:** Geh zu **Einstellungen > Google > Alle Dienste > Werbung**. Klicke auf **"Werbe-ID löschen"**. Das ist effektiver als nur die Personalisierung zu deaktivieren.
+*   **Aktivitätseinstellungen:** Unter **Google > Daten & Datenschutz** solltest du "Web- und App-Aktivitäten" sowie den "Standortverlauf" pausieren und die automatische Löschung aktivieren.
 
-## 2. Network Security
-### a. Use a VPN
-- **Install a VPN Service**: Choose a reputable VPN service to encrypt your internet traffic and mask your IP address.
+## 3. Netzwerk-Sicherheit
+*   **Privates DNS:** (Wichtigster Schritt!) Konfiguriere unter **Einstellungen > Verbindung & Teilen > Privates DNS** einen Anbieter wie `dns.quad9.net` oder `base.dns.mullvad.net`. Dies blockiert Tracker bereits auf Netzwerkebene.
+*   **Gekürzte MAC-Adresse:** Stelle in den WLAN-Einstellungen für bekannte Netzwerke sicher, dass **"Zufällige MAC-Adresse verwenden"** aktiv ist, um Tracking über Hardware-IDs zu erschweren.
 
-### b. Secure Wi-Fi Settings
-- **Use WPA3 Security**: Ensure your home Wi-Fi network uses WPA3, if supported.
-- **Avoid Public Wi-Fi**: Never connect to unsecured public Wi-Fi networks without a VPN.
+## 4. Xiaomi/Poco Spezifika (MIUI & HyperOS)
+*   **Autorisierung widerrufen:** Geh zu **Einstellungen > Passwords & Sicherheit > Autorisierung & Widerruf**. Entziehe **msa**, **miui_daemon** und **Feedback** die Berechtigung. Das schneidet die größten Daten-Lecks ab.
+*   **System-Werbung (Ad Services):** Unter **Passwörter & Sicherheit > Privatsphäre > Werbedienste** den Schalter bei "Personalisierte Werbung" auf AUS stellen.
+*   **Sperrbildschirm-Glance:** Deaktiviere "Glance für Mi" unter **Sperrbildschirm**, da dies im Hintergrund ständig Bilder und Tracker lädt.
 
-## 3. Application Practices
-### a. Install Privacy-Focused Apps
-- **Use F-Droid**: Explore alternative app stores like F-Droid for open-source apps that emphasize privacy.
+## 5. App-Praktiken
+*   **F-Droid bevorzugen:** Nutze wann immer möglich Open-Source-Alternativen von F-Droid (z.B. *Mull* statt Chrome).
+*   **Unbenutzte Apps:** Aktiviere unter **App-Info** die Option "App-Aktivität bei Nichtnutzung stoppen" (entzieht Berechtigungen und löscht temporäre Dateien automatisch).
 
-### b. Review Installed Apps
-- **Regular Audits**: Periodically review installed apps and uninstall any that are unnecessary or invasive.
+---
 
-## 4. Device Maintenance
-### a. System Updates
-- **Keep Your Device Updated**: Regularly check for system updates via **Settings > About Phone > System Updates** to ensure security patches are applied.
-
-### b. Factory Reset Options
-- **When Necessary**: In extreme cases, consider a factory reset (make sure to back up important data first). Go to **Settings > About Phone > Reset > Factory Data Reset**.
-
-## 5. Xiaomi Specific Adjustments
-### a. Disable MIUI Ads
-- **Turn Off Recommendations**: Go to **Settings > Passwords & Security > Privacy > Ad services** and disable any settings related to ads and recommendations.
-
-### b. Disable Background Services
-- **Location Services**: For apps that do not need constant access to your location, ensure background location access is disabled.
-
-## Conclusion
-By following these comprehensive steps, Android users, especially on Poco and Xiaomi devices, can significantly enhance their privacy and reduce the chances of being tracked by apps and services.
+> **Tipp:** Hardening ist ein Prozess, kein Einmal-Event. Prüfe nach jedem System-Update, ob Xiaomi oder Google Einstellungen heimlich zurückgesetzt haben.
