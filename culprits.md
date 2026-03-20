@@ -35,3 +35,23 @@ Falls eine Anwendung fälschlicherweise entfernt wurde oder das System instabil 
 
 ---
 
+## 🕵️ Datenkraken entlarven (Deep-Dive)
+
+Warum stehen diese Apps in der Liste? Hier sind die Werkzeuge, mit denen du die "Sünder" selbst analysieren kannst:
+
+### 1. Exodus Privacy (Statische Analyse)
+Bevor du eine App installierst, kannst du auf [Exodus Privacy](https://reports.exodus-privacy.eu.org/) prüfen, welche Tracker eingebettet sind.
+*   **Beispiel:** Viele Taschenlampen-Apps enthalten 5+ Tracker (z. B. Facebook Ads, Google Firebase, Unity Ads).
+*   **Aktion:** Suche in Exodus nach dem Paketnamen (z. B. `com.miui.analytics`), um die eingebauten Tracker-Module zu sehen.
+
+### 2. NetGuard & Firewall (Live-Monitoring)
+Mit einer No-Root-Firewall wie **NetGuard** siehst du in Echtzeit, wohin Apps "telefonieren".
+*   **Aha-Erlebnis:** Blockiere eine System-App und schau ins Protokoll. Du wirst sehen, wie oft pro Stunde versucht wird, Server in Übersee zu kontaktieren.
+*   **Überraschende Sünder:** Wetter-Apps oder Standard-Tastaturen, die ohne Grund versuchen, eine Internetverbindung aufzubauen.
+
+### 3. Die "Berechtigungs-Falle"
+Prüfe in den Android-Einstellungen kritisch:
+*   Warum braucht eine Taschenrechner-App Zugriff auf deine **Kontakte**?
+*   Warum verlangt ein Dateimanager den **Standort**?
+*   **Regel:** Jede Berechtigung, die nicht zwingend für die Kernfunktion nötig ist, ist ein potenzieller Datenabfluss.
+*   
