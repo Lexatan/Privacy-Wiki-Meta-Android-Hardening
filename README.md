@@ -15,28 +15,40 @@
 ---
 
 ## 📋 Inhaltsverzeichnis
-- [Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
-- [📱 Android & Poco Hardening (Systemeinstellungen)](android-settings.md)
-- [Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
-- [🧪 App-Isolation (Quarantäne)](app_isolation.md)
-- [Hardening Matrix](#hardening-matrix)
-- [Browser-Hardening & Tools](#browser)
-- [❓ Häufig gestellte Fragen (FAQ)](faq.md)
-- [🚀 Custom ROMs & Bootloader](custom_rom_guide.md)
-- [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
-- [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
-- [🛠️ Automatisierung & Skripte](scripts_guide.md)
-- [⚠️ Gefahrenzone (Bloatware Safe-List)](danger_zone.md)
+
+### 🏁 Erste Schritte & Grundlagen
+- [🚀 First-Boot Checkliste](setup_guide.md)
+- [📊 Hardening Matrix](#hardening-matrix)
 - [🛡️ Sicherheit & Richtlinien](#sicherheit)
-- [Übeltäter-Liste (Culprit Apps)](culprits.md)
-- [Empfohlene Apps (Alternativen)](recommended_apps.md)
-- [Shizuku Ecosystem](shizuku_tools.md)
-- [Firewall Guide (NetGuard)](netguard_guide.md)
-- [First-Boot Checkliste](setup_guide.md)
-- [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
-- [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
+
+### 📱 System-Optimierung (Poco/Xiaomi)
+- [⚙️ Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
+- [📱 Android & Poco Hardening (Systemeinstellungen)](android-settings.md)
+- [🚫 Übeltäter-Liste (Culprit Apps)](culprits.md)
+- [⚠️ Gefahrenzone (Bloatware Safe-List)](danger_zone.md)
+
+### 🔒 Privacy & Tracking-Schutz
+- [👥 Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
-  
+- [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
+- [🧪 App-Isolation (Quarantäne)](app_isolation.md)
+
+### 🛠️ Tools & Ecosystem
+- [💉 Shizuku Ecosystem](shizuku_tools.md)
+- [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
+- [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
+- [🌐 Browser-Hardening & Tools](#browser)
+- [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
+
+### ⚡ Fortgeschrittene & Wartung
+- [🤖 Automatisierung & Skripte](scripts_guide.md)
+- [🏎️ Custom ROMs & Bootloader](custom_rom_guide.md)
+- [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
+
+### 🆘 Hilfe & Support
+- [❓ Häufig gestellte Fragen (FAQ)](faq.md)
+- [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
+
 ---
 
 ## Poco/Xiaomi System-Optimierung
