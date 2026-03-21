@@ -29,9 +29,10 @@
 
 ### 🔒 Privacy & Tracking-Schutz
 - [👥 Meta (Instagram & Facebook) Anti-Tracking](meta-settings.md)
+- [🧪 App-Isolation (Quarantäne)](app_isolation.md)
+- [📸 Medien- & Datei-Sicherheit (Metadaten-Schutz)](media_hardening.md)
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
-- [🧪 App-Isolation (Quarantäne)](app_isolation.md)
 
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
@@ -119,4 +120,3 @@ Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehl
 
 ```bash
 adb shell cmd package install-existing [PAKETNAME]
-
