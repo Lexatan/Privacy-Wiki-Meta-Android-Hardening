@@ -34,6 +34,8 @@
 - [Firewall Guide (NetGuard)](netguard_guide.md)
 - [First-Boot Checkliste](setup_guide.md)
 - [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
+  - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
+- [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
   
 ---
 
