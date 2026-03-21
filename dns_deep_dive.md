@@ -21,10 +21,16 @@ Standard-Anbieter (wie Google oder dein Provider) protokollieren jede Website, d
 ## 🛠️ Setup: NextDNS (Empfehlung für volle Kontrolle)
 Mit NextDNS kannst du genau sehen, welche App versucht, "nach Hause zu telefonieren", und es gezielt unterbinden.
 
-1.  Erstelle ein kostenloses Konto auf [NextDNS.io](https://nextdns.io).
-2.  Wähle unter **"Privacy"** fertige Listen aus (z.B. *OISD* oder *Steven Black*).
-3.  Aktiviere unter **"Security"** den Schutz vor bekannten Tracking-Servern.
+1.  **Konto:** Erstelle ein kostenloses Konto auf [NextDNS.io](https://nextdns.io).
+2.  **Filter:** Wähle unter **"Privacy"** fertige Listen aus (z.B. *OISD* oder *Steven Black*).
+3.  **Security:** Aktiviere unter den Schutz vor bekannten Tracking-Servern.
 4.  **Einrichtung auf dem Poco:** Kopiere deine persönliche ID (z.B. `deine-id.dns.nextdns.io`) in die Android-Einstellungen unter **Privates DNS**.
+5.  **Profi-Tipp (App-Kontrolle):** Nutze die **NextDNS Manager App** (Open Source). Damit hast du direkt vom Smartphone aus Zugriff auf:
+    *   Echtzeit-Logs (sehen, was gerade blockiert wird).
+    *   Schnelles Anpassen von Blocklisten und Whitelists.
+    *   Ein-/Ausschalten von Filtern ohne Browser-Login.
+
+---
 
 ## ⚡ Schnelle Alternative: AdGuard (Ohne Account)
 Wenn du sofort und ohne Registrierung systemweit Werbung und Tracker blockieren willst:
