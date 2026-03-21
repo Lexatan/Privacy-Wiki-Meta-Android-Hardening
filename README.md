@@ -28,7 +28,7 @@
 - [⚠️ Gefahrenzone (Bloatware Safe-List)](danger_zone.md)
 
 ### 🔒 Privacy & Tracking-Schutz
-- [👥 Meta (Instagram & Facebook) Anti-Tracking](#meta-instagram--facebook-anti-tracking)
+- [👥 Meta (Instagram & Facebook) Anti-Tracking](meta-settings.md)
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
 - [🧪 App-Isolation (Quarantäne)](app_isolation.md)
