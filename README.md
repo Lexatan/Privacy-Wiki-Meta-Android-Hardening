@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Hardening_In_Progress-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Community](https://img.shields.io/badge/Clones-300%2B-orange)
+![Community](https://img.shields.io/badge/Clones-460%2B-orange)
 
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden erfolgt ausdrücklich auf eigene Gefahr.**
@@ -17,6 +17,7 @@
 ## 📋 Inhaltsverzeichnis
 
 ### 🏁 Erste Schritte & Grundlagen
+- [⚡ Quick-Start Guide (Schritt-für-Schritt)](quick_start.md)
 - [🚀 First-Boot Checkliste](setup_guide.md)
 - [📊 Hardening Matrix](#hardening-matrix)
 - [🛡️ Sicherheit & Richtlinien](#sicherheit)
