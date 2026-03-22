@@ -34,6 +34,7 @@
 - [📡 Netzwerk-Anonymisierung (Standort-Verschleierung)](network_anonymization.md)
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
+- [🔐 2FA-Hardening (Sichere Logins)](2fa_hardening.md)
 
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
@@ -43,6 +44,7 @@
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
 
 ### ⚡ Fortgeschrittene & Wartung
+- [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
 - [🤖 Automatisierung & Skripte](scripts_guide.md)
 - [🏎️ Custom ROMs & Bootloader](custom_rom_guide.md)
 - [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
