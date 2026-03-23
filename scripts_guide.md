@@ -29,3 +29,5 @@ Verbinde dein Handy via ADB mit dem PC.
 Mache das Skript ausführbar: chmod +x adb_debloat.sh
 Starte es: ./adb_debloat.sh
 Hinweis: Nutze dieses Skript nur, wenn du weißt, welche Pakete es entfernt. Eine Liste der Pakete findest du in der culprits.md.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
