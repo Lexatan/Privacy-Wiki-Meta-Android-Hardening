@@ -24,7 +24,7 @@
 
 ### 📱 System-Optimierung (Poco/Xiaomi)
 - [⚙️ Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
-- [⚡ Performance & Akku-Mythen (Hintergründe)](performance_myths.md)
+- [🔋 Performance & Akku-Mythen (Hintergründe)](performance_myths.md)
 - [📱 Android & Poco Hardening (Systemeinstellungen)](android-settings.md)
 - [🚫 Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [⚠️ Gefahrenzone (Bloatware Safe-List)](danger_zone.md)
