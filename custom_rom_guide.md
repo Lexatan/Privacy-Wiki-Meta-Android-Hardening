@@ -19,3 +19,5 @@ Bevor du den Bootloader öffnest, solltest du die Vor- und Nachteile kennen:
 ## ⚠️ Wichtiger Hinweis
 Das Flashen eines ROMs erfordert das **Öffnen des Bootloaders**. Dies löscht alle Daten und schwächt die physische Sicherheit deines Geräts (kein Verified Boot). Überlege dir diesen Schritt gut!
 
+---
+[⬅️ Zurück zur Hauptseite](README.md)
