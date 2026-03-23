@@ -21,3 +21,5 @@ Falls das System gar nicht mehr lädt:
 Wenn das Handy beim Logo hängen bleibt:
 * Versuche, via ADB den Befehl `adb reboot` zu senden.
 * Wenn ADB nicht mehr reagiert, hilft meist nur der Factory Reset (Punkt 3).
+---
+[⬅️ Zurück zur Hauptseite](README.md)
