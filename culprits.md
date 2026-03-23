@@ -57,3 +57,5 @@ Prüfe in den Android-Einstellungen kritisch:
 *   Warum braucht eine Taschenrechner-App Zugriff auf deine **Kontakte**?
 *   Warum verlangt ein Dateimanager den **Standort**?
 *   **Regel:** Jede Berechtigung, die nicht zwingend für die Kernfunktion nötig ist, ist ein potenzieller Datenabfluss.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
