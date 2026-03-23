@@ -76,4 +76,5 @@ Dies ist der letzte Ausweg, wenn das System gar nicht mehr lädt und kein ADB-Zu
 Pro-Tipp für die Zukunft:
 Deaktiviere niemals mehr als 3–5 Apps gleichzeitig, ohne zwischendurch neu zu starten. So weißt du im Ernstfall sofort, wer der "Übeltäter" war.
 
-```
+---
+[⬅️ Zurück zur Hauptseite](README.md)
