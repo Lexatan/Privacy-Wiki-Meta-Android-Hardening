@@ -32,7 +32,7 @@
 ### 🔒 Privacy & Tracking-Schutz
 - [👥 Meta (Instagram & Facebook) Anti-Tracking](meta-settings.md)
 - [🧪 App-Isolation (Quarantäne)](app_isolation.md)
-- [📸 Medien- & Datei-Sicherheit (Metadaten-Schutz)](media_hardening.md)
+- [📸 Medien- & Datei-Sicherheit (Metadaten-Schutz)](Media-Hardening.md)
 - [📡 Netzwerk-Anonymisierung (Standort-Verschleierung)](network_anonymization.md)
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
