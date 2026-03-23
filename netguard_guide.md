@@ -33,3 +33,5 @@ Viele System-Apps von Xiaomi benötigen für ihre Grundfunktion kein Internet (z
 ---
 > **Hinweis:** Da NetGuard eine lokale VPN-Schnittstelle nutzt, kann es nicht gleichzeitig mit anderen VPN-Apps (wie Mullvad oder Proton) betrieben werden, es sei denn, man nutzt den SOCKS5-Proxy-Modus.
 > 
+---
+[⬅️ Zurück zur Hauptseite](README.md)
