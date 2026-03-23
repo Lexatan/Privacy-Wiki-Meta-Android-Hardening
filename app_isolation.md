@@ -33,3 +33,5 @@ Nutze Facebook oder Instagram über einen gehärteten Browser (wie **Mull**).
 
 *   **Vorteil:** Ein Browser isoliert Cookies besser als die native App und hat keinen Zugriff auf deine Hardware-ID oder Kontakte.
  
+---
+[⬅️ Zurück zur Hauptseite](README.md)
