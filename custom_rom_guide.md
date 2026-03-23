@@ -92,5 +92,5 @@ Wenn du zurück zu MIUI/HyperOS willst:
 - [ ] 7–14 Tage Wartezeit eingeplant
 
 ---
+[⬅️ Zurück zur Hauptseite](README.md)
 
-**Zurück zur Hauptseite**
