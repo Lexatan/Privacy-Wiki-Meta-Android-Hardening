@@ -50,3 +50,5 @@ Wenn du kein neues Betriebssystem installieren möchtest, kannst du Google-Diens
 microG ist der **"Endgegner"** des Android-Hardening. Es ist der Schritt weg von der Kontrolle durch Konzerne hin zu einem wirklich freien Gerät. 
 
 > **Empfehlung:** Beginne mit dem [Debloating](culprits.md). Wenn du merkst, dass du maximale Privatsphäre willst, ist der Wechsel zu einer microG-basierten Custom ROM der nächste logische Schritt.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
