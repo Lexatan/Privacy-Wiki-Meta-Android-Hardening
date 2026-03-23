@@ -41,3 +41,5 @@ Jetzt stellen wir die Verbindung zum Internet her und säubern das System.
 
 ---
 *Glückwunsch! Dein Poco ist nun deutlich "gehärtet" und bereit für den Alltag.*
+---
+[⬅️ Zurück zur Hauptseite](README.md)
