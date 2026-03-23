@@ -30,3 +30,5 @@ Ein letzter Check der verbliebenen System-Apps:
 
 ---
 > **Tipp:** Nutze zusätzlich den `meta_settings_tracker.py` aus diesem Repo, um Änderungen an den Privatsphäre-Einstellungen nach App-Updates automatisch zu erkennen.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
