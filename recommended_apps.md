@@ -7,35 +7,42 @@ Diese Anwendungen ersetzen datenhungrige Standard-Apps und bieten Funktionen, di
 | **Browser** | Mull | `nu.mull.mull` | Ein Firefox-Fork mit Fokus auf Sicherheit (Hardening). |
 | **System** | Shizuku | `moe.shizuku.privileged.api` | Ermöglicht System-Zugriff ohne Root für Apps wie Canta. |
 | **Debloating** | Canta | `org.samr7.canta` | Sicheres Entfernen von System-Apps via Shizuku. |
-| **DNS/Firewall** | NetGuard | `eu.faircode.netguard` | Blockiert Tracker auf Netzwerkebe und fungiert als Firewall. |
+| **DNS/Firewall** | NetGuard | `eu.faircode.netguard` | Blockiert Tracker auf Netzwerkesebene und fungiert als Firewall. |
 | **App-Store** | F-Droid | `org.fdroid.fdroid` | Store für freie und quelloffene Apps ohne Tracking. |
 | **Analyse** | LibChecker | `com.absinthe.libchecker` | Zeigt an, welche Tracking-SDKs in deinen Apps verbaut sind. |
 
 ---
 
-# 🔄 Alternativen & Ersatz-Apps (Substitution)
+## 🔄 Alternativen & Ersatz-Apps (Substitution)
 
 Hier findest du eine Liste von datenschutzfreundlichen Open-Source-Alternativen (FOSS) für die gängigen System- und Google-Apps.
 
 | Original-App | Empfohlene Alternative | Quelle | Vorteil |
 | :--- | :--- | :--- | :--- |
-| **Google Fotos** | Ente Photos / Aves Libre | F-Droid | Kein Cloud-Zwang, lokale Verwaltung |
-| **YouTube** | NewPipe / YouTube ReVanced | GitHub | Keine Werbung, Hintergrund-Wiedergabe |
-| **Google Chrome** | Mull / Brave / Cromite | F-Droid | Starker Tracker-Blocker inklusive |
-| **Gboard (Tastatur)** | OpenBoard / Heliboard | F-Droid | Keine Internetberechtigung (kein Loggen) |
-| **Google Drive** | Proton Drive / Cryptomator | Play Store | Ende-zu-Ende Verschlüsselung |
-| **Google Maps** | Organic Maps / OsmAnd+ | F-Droid | Komplette Offline-Nutzung möglich |
-| **Gmail** | K-9 Mail (Thunderbird) / FairEmail | F-Droid | Open Source, mehr Privatsphäre |
-| **Notizen (Keep)** | Quillnote / Notesnook | F-Droid | Verschlüsselt & FOSS |
-| **Dateimanager** | Material Files / MiXplorer | F-Droid | Keine Werbung, Root-Support |
+| **Google Fotos** | Ente Photos / Aves Libre | F-Droid | Kein Cloud-Zwang, lokale Verwaltung. |
+| **YouTube** | NewPipe / YouTube ReVanced | GitHub | Keine Werbung, Hintergrund-Wiedergabe. |
+| **Google Chrome** | Mull / Brave / Cromite | F-Droid | Starker Tracker-Blocker inklusive. |
+| **Gboard (Tastatur)** | OpenBoard / Heliboard | F-Droid | Keine Internetberechtigung (kein Loggen). |
+| **Google Drive** | Proton Drive / Cryptomator | Play Store | Ende-zu-Ende Verschlüsselung. |
+| **Google Maps** | Organic Maps / OsmAnd+ | F-Droid | Komplette Offline-Nutzung möglich. |
+| **Gmail** | K-9 Mail (Thunderbird) / FairEmail | F-Droid | Open Source, mehr Privatsphäre. |
+| **Notizen (Keep)** | Quillnote / Notesnook | F-Droid | Verschlüsselt & FOSS. |
+| **Dateimanager** | Material Files / MiXplorer | F-Droid | Keine Werbung, Root-Support. |
+| **WhatsApp/Messenger**| Signal / Briar | F-Droid | Minimale Metadaten, E2EE-Verschlüsselung. |
+| **Kalender** | Etar / Simple Calendar | F-Droid | Lokale Verwaltung ohne Google-Zwang. |
+| **Spotify/Musik** | ViMusic / InnerTune | GitHub | Werbefreies Streaming ohne Google-Konto. |
+| **Wetter** | Geometric Weather | F-Droid | Keine Tracker, basiert auf OpenStreetMap. |
+| **Authenticator** | Aegis / Ente Auth | F-Droid | Verschlüsselte Backups, Open Source. |
+| **PDF-Reader** | MJ PDF / Librera Reader | F-Droid | Schlank, Open Source, keine Berechtigungen. |
 
 ---
 
 ## 💡 Installations-Tipps
-* **F-Droid & Neo Store:** Nutze vorrangig diese Stores, da die Versionen dort oft "sauberer" sind als im Play Store.
+
+* **F-Droid & Neo Store:** Nutze vorrangig diese Stores, da die Versionen dort "sauberer" sind als im Play Store.
 * **GitHub/Offizielle Seiten:** Apps wie ReVanced oder Proton Drive sind am besten direkt über deren offizielle Kanäle zu beziehen.
 * **Shizuku:** Für die volle Funktionalität vieler dieser Tools ist einmalig die Aktivierung des "Wireless Debugging" in den Android-Entwickleroptionen nötig.
-
-
 * **YouTube ReVanced:** Für die Nutzung wird der **ReVanced Manager** benötigt, um die originale YouTube-APK mit Patches zu versehen. Nutze für den Download von Manager und GmsCore ausschließlich die offizielle GitHub-Seite des ReVanced-Teams, um Schadsoftware zu vermeiden.
-  
+
+---
+[⬅️ Zurück zur Hauptseite](README.md)
