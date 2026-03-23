@@ -14,3 +14,5 @@ Keine Panik. Solange du keine kritischen System-Apps (siehe [danger_zone.md](dan
 
 ### 4. Warum kommen keine Benachrichtigungen mehr an?
 Wenn du eine App zu aggressiv mit **NetGuard** blockierst oder die Hintergrundaktivität eingeschränkt hast, kann sie keine Push-Nachrichten empfangen. Prüfe in diesem Fall die Firewall-Regeln für diese spezifische App.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
