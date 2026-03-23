@@ -24,6 +24,7 @@
 
 ### 📱 System-Optimierung (Poco/Xiaomi)
 - [⚙️ Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
+- [⚡ Performance & Akku-Mythen (Hintergründe)](performance_myths.md)
 - [📱 Android & Poco Hardening (Systemeinstellungen)](android-settings.md)
 - [🚫 Übeltäter-Liste (Culprit Apps)](culprits.md)
 - [⚠️ Gefahrenzone (Bloatware Safe-List)](danger_zone.md)
@@ -56,7 +57,7 @@
 
 ---
 
-## Poco/Xiaomi System-Optimierung
+## <a name="pocoxiaomi-system-optimierung"></a>Poco/Xiaomi System-Optimierung
 
 ### 1. System-Ads (MSA) & Tracking deaktivieren
 Xiaomi versteckt Werbe-Dienste tief im System. Diese sollten als Erstes deaktiviert werden:
