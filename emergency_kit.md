@@ -1,4 +1,4 @@
-# Notfall-Kit: Wenn nichts mehr geht
+# 🚨 Notfall-Kit: Wenn nichts mehr geht
 
 Falls dein Poco nach einem Debloating-Schritt nicht mehr startet, Apps ständig abstürzen oder das System instabil wird: **Bewahre Ruhe.** Fast alles lässt sich ohne Datenverlust rückgängig machen, solange du noch Zugriff auf das System oder ADB hast.
 
