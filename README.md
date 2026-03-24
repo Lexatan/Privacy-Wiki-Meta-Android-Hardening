@@ -82,15 +82,18 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 - **Aktion:** **Künftige Aktivitäten trennen** wählen und den bisherigen Verlauf löschen.
 
 ---
-
-## Hardening Matrix
+### 📊 Hardening Matrix (Übersicht)
 
 | Kategorie | Technik | Empfehlung | Ziel |
 | :--- | :--- | :--- | :--- |
-| **Datenschutz** | DNS-over-TLS | `dns.quad9.net` / `base.dns.mullvad.net` | Filtert Tracking & Malware |
+| **Datenschutz** | DNS-over-TLS | `dns.quad9.net` / `base.dns.mullvad.net` | Filtert Tracking & Malware systemweit |
 | **System** | Debloating | Canta & Shizuku (User-Mode) | RAM-Verbrauch um ~30% senken |
-| **Netzwerk** | Firewall | NetGuard (No-Root) | Kontrolliert App-Traffic |
-| **Isolation** | Sandbox | Shelter / Insular | Trennung von Privat- & Meta-Apps |
+| **Netzwerk** | Firewall | NetGuard (No-Root) | Kontrolliert App-Traffic & Blockt "Nach-Hause-Telefonieren" |
+| **Isolation** | Sandbox | Shelter / Insular | Strikte Trennung von Privat- & Meta-Apps |
+| **Identität** | Browser-Hardening | Mull / Cromite | Schutz vor Fingerprinting & Web-Tracking |
+| **Physisch** | Hardware-Schutz | USB-Datenblocker / Cam-Cover | Schutz vor Juice Jacking & Spionage |
+
+
 
 ---
 
