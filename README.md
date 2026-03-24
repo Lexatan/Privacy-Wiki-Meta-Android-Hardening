@@ -37,7 +37,8 @@
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
 - [🔐 2FA-Hardening (Sichere Logins)](2fa_hardening.md)
-
+- 🕵️ [Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
+  
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
 - [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
@@ -51,7 +52,8 @@
 - [🏎️ Custom ROMs & Bootloader](custom_rom_guide.md)
 - [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
 - 🔌 [Hardware-Schutz & USB-Sicherheit](hardware_hardening.md)
-
+- 🧠 [Digitaler Minimalismus & Fokus](mindset_privacy.md)
+  
 ### 🆘 Hilfe & Support
 - [❓ Häufig gestellte Fragen (FAQ)](faq.md)
 - [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
