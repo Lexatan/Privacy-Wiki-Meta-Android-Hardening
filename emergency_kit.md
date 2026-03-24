@@ -4,7 +4,7 @@ Falls dein Poco nach einem Debloating-Schritt nicht mehr startet, Apps ständig 
 
 ---
 
-## 1. Den Übeltäter finden
+## 1. 🔍 Den Übeltäter finden
 
 Falls du nicht genau weißt, welche App den Fehler verursacht, lass dir alle deaktivierten oder deinstallierten System-Apps anzeigen:
 
