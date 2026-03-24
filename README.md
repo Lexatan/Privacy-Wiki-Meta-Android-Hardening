@@ -82,7 +82,8 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 - **Aktion:** **Künftige Aktivitäten trennen** wählen und den bisherigen Verlauf löschen.
 
 ---
-### 📊 Hardening Matrix (Übersicht)
+### <a name="hardening-matrix"></a>📊 Hardening Matrix (Übersicht)
+
 
 | Kategorie | Technik | Empfehlung | Ziel |
 | :--- | :--- | :--- | :--- |
