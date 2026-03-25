@@ -54,6 +54,7 @@
 - [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
 - 🔌 [Hardware-Schutz & USB-Sicherheit](hardware_hardening.md)
 - 🧠 [Digitaler Minimalismus & Fokus](mindset_privacy.md)
+- [📅 Privacy Check-Up Kalender (Wartungs-Routine)](#privacy-check-up-kalender)
   
 ### 🆘 Hilfe & Support
 - [❓ Häufig gestellte Fragen (FAQ)](faq.md)
@@ -97,6 +98,18 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 
 
 
+---
+### <a name="privacy-check-up-kalender"></a>📅 Privacy Check-Up Kalender
+
+Sicherheit ist kein Zustand, sondern ein Prozess. Diese 5-Minuten-Routine hält dein System sauber:
+
+| Intervall | Aktion | Ziel |
+| :--- | :--- | :--- |
+| **Wöchentlich** | **Cache-Reinigung** | Browser-Verlauf & App-Caches leeren (schützt vor Tracking-Cookies). |
+| **Monatlich** | **App-Inventur** | Apps löschen, die 30 Tage nicht genutzt wurden. Weniger Apps = weniger Angriffsfläche. |
+| **Monatlich** | **Berechtigungs-Check** | `Einstellungen -> Datenschutz -> Berechtigungsmanager`. Wer nutzt Kamera/Standort ungefragt? |
+| **Quartal** | **Backup-Validierung** | Prüfe, ob dein externes Backup noch lesbar ist (Wichtig vor System-Updates!). |
+| **Quartal** | **Passwort-Audit** | Ändere Passwörter für kritische Dienste oder prüfe Leaks via "Have I Been Pwned". |
 ---
 
 ## <a name="browser"></a>Browser-Hardening & Tools
