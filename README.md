@@ -38,6 +38,7 @@
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
 - [🔐 2FA-Hardening (Sichere Logins)](2fa_hardening.md)
 - 🕵️ [Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
+- [📂 Scoped Storage & Dateimanagement (Daten-Isolation)](scoped_storage.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
@@ -45,7 +46,7 @@
 - [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
 - [🌐 Browser-Hardening & Tools](#browser)
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
-
+  
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
 - [🤖 Automatisierung & Skripte](scripts_guide.md)
