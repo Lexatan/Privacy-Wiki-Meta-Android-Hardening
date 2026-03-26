@@ -13,6 +13,13 @@ Keine Panik. Solange du keine kritischen System-Apps (siehe [danger_zone.md](dan
 * Im schlimmsten Fall: Starte ins Recovery (Lauter-Taste + Power) und wähle "Wipe Data".
 
 ### 4. Warum kommen keine Benachrichtigungen mehr an?
-Wenn du eine App zu aggressiv mit **NetGuard** blockierst oder die Hintergrundaktivität eingeschränkt hast, kann sie keine Push-Nachrichten empfangen. Prüfe in diesem Fall die Firewall-Regeln für diese spezifische App.
+Wenn du eine App zu aggressiv mit **NetGuard** blockierst oder die Hintergrundaktivität eingeschränkt hast, kann sie keine Push-Nachrichten empfangen. Prüfe in diesem Fall die Firewall-Regeln in NetGuard oder die Akku-Optimierungseinstellungen für diese spezifische App.
+
+### 5. Verbraucht Shizuku viel Akku?
+**Nein.** Shizuku selbst ist lediglich eine Schnittstelle (API), die im Hintergrund auf Befehle wartet. Der Akkuverbrauch ist minimal bis gar nicht messbar. Apps, die Shizuku nutzen (wie Canta oder Hail), verbrauchen nur dann Energie, wenn du sie aktiv öffnest, um Änderungen vorzunehmen.
+
+### 6. Muss ich Shizuku nach jedem Neustart manuell starten?
+Android beendet aus Sicherheitsgründen alle Debugging-Dienste bei einem Neustart. Du kannst Shizuku jedoch mit der App **Daimon** oder über ein kurzes Wireless-Debugging-Pairing innerhalb von Sekunden wieder aktivieren. Falls du einen PC nutzt, reicht ein einfacher ADB-Befehl.
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
