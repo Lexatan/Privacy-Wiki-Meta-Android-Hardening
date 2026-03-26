@@ -53,7 +53,6 @@ Anwendung
 Hinweis: Nutze dieses Skript nur, wenn du weißt, welche Pakete es entfernt. Eine Liste der Pakete findest du in der culprits.md.
 
 ---
-
-⬅️ Zurück zur Hauptseite
+[Zurück zur Übersicht](README.md)
 
 
