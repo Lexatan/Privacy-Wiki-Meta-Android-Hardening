@@ -9,6 +9,10 @@ Diese Apps nutzen die Shizuku-API, um System-Berechtigungen ohne Root-Zugriff zu
 | **Hail** | "Einfrieren" von Apps, die man selten braucht, um Akku zu sparen. |
 | **SystemUI Tuner** | Verstecken von Statusleisten-Icons und UI-Anpassungen. |
 | **Daimon** | Automatisches Starten von Shizuku nach einem Neustart. |
+| **Privacy Flip** | Automatisiertes Deaktivieren von Sensoren (Kamera/Mikrofon) bei Bildschirmsperre. |
+| **Athena** | Kombiniert DNS-Filterung und Firewall-Funktionen zur Tracker-Blockierung. |
+| **De1984** | Spezialisierter Privacy-Manager für tiefe Einblicke in App-Pakete und Berechtigungen. |
+| **InstallWithOptions** | Ermöglicht App-Installationen mit erweiterten Flags (z.B. für alte SDK-Versionen). |
 
 ---
 
