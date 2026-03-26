@@ -15,7 +15,7 @@ Dieses Python-Skript hilft dir zu überwachen, ob Meta (Facebook/Instagram) nach
 1. Klone das Repository oder lade das Skript einzeln herunter.
 2. Öffne das Terminal im Ordner und starte das Skript:
    ```bash
- python meta_settings_tracker.py
+  python meta_settings_tracker.py
 
    
 Anwendung am Smartphone (Termux)
