@@ -21,7 +21,7 @@ Dieses Python-Skript hilft dir zu überwachen, ob Meta (Facebook/Instagram) nach
 
    ```bash
    python meta_settings_tracker.py
-```
+   ```
 
 Anwendung am Smartphone (Termux)
 
