@@ -16,7 +16,7 @@ Dieses Python-Skript hilft dir zu überwachen, ob Meta (Facebook/Instagram) nach
 2. Öffne das Terminal im Ordner und starte das Skript:
    ```bash
    python meta_settings_tracker.py
-
+```
    
 Anwendung am Smartphone (Termux)
 Du kannst das Skript auch direkt auf deinem Android-Gerät via Termux (F-Droid) laufen lassen:
