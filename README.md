@@ -44,7 +44,8 @@
 - [⌨️ Tastatur-Härtung (Eingabe-Privatsphäre)](keyboard_hardening.md)
 - [🛰️ Standort-Verschleierung (Mock Locations)](mock_locations.md)
 - [📄 Dokumenten-Härtung (Metadaten-Stripping)](document_hardening.md)
-   
+- [☁️ Verschlüsselte Synchronisation (Zero-Knowledge)](cloud_encryption.md)
+- 
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
 - [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
@@ -64,7 +65,8 @@
 ### 🆘 Hilfe & Support
 - [❓ Häufig gestellte Fragen (FAQ)](faq.md)
 - [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
-
+- [🧨 Notfall-Wipe & Diebstahlschutz (Wasted)](emergency_wipe.md)
+  
 ---
 
 ## <a name="pocoxiaomi-system-optimierung"></a>Poco/Xiaomi System-Optimierung
