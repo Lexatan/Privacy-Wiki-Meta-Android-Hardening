@@ -45,7 +45,7 @@
 - [🛰️ Standort-Verschleierung (Mock Locations)](mock_locations.md)
 - [📄 Dokumenten-Härtung (Metadaten-Stripping)](document_hardening.md)
 - [☁️ Verschlüsselte Synchronisation (Zero-Knowledge)](cloud_encryption.md)
-- 
+  
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
 - [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
