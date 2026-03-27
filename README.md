@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Hardening_In_Progress-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Community](https://img.shields.io/badge/Clones-660%2B-orange)
+![Community](https://img.shields.io/badge/Clones-700%2B-orange)
 
 > ### ⚠️ Wichtiger Sicherheitshinweis (Disclaimer)
 > **Die Nutzung der in diesem Repository beschriebenen Methoden erfolgt ausdrücklich auf eigene Gefahr.**
