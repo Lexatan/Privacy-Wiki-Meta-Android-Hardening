@@ -41,7 +41,8 @@
 - 🕵️ [Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
 - [📂 Scoped Storage & Dateimanagement (Daten-Isolation)](scoped_storage.md)
 - [🧬Permission-Hardening & App-Ops (Deep-Dive)](permission_hardening.md)
-    
+- [⌨️ Tastatur-Härtung (Eingabe-Privatsphäre)](keyboard_hardening.md)
+      
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
 - [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
