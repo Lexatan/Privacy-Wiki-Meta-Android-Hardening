@@ -46,7 +46,7 @@ Diese Tastaturen benötigen **keinen Internetzugriff** und respektieren deine Da
 
 Falls du Gboard als Backup behalten musst, solltest du es komplett isolieren:
 
-1. **Firewall:** Nutze **NetGuard** (siehe [Firewall Guide](firewall_guide.md)), um Gboard jeglichen Internetzugriff (WLAN & Mobile Daten) zu entziehen.
+1. **Firewall:** Nutze **NetGuard** (siehe [Firewall Guide](netguard_guide.md)), um Gboard jeglichen Internetzugriff (WLAN & Mobile Daten) zu entziehen.
 2. **Interne Einstellungen:** Deaktiviere in den Gboard-Einstellungen:
    * `Wörterbuch` > `Gelerntes löschen`.
    * `Erweitert` > `Nutzungsstatistik teilen`.
