@@ -47,6 +47,7 @@
 - [☁️ Verschlüsselte Synchronisation (Zero-Knowledge)](cloud_encryption.md)
 - [📴 Sensoren-Hardening (Hardware-Kill-Switch)](sensor_hardening.md)
 - [🛑 Google-Services Hardening (Telemetrie-Stopp)](google_hardening.md)
+- [🔗 Link-Privatsphäre (Tracking-Stripping)](link_privacy.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
