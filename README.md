@@ -46,6 +46,7 @@
 - [📄 Dokumenten-Härtung (Metadaten-Stripping)](document_hardening.md)
 - [☁️ Verschlüsselte Synchronisation (Zero-Knowledge)](cloud_encryption.md)
 - [📴 Sensoren-Hardening (Hardware-Kill-Switch)](sensor_hardening.md)
+- [🛑 Google-Services Hardening (Telemetrie-Stopp)](google_hardening.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
