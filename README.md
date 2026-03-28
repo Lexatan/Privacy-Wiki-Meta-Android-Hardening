@@ -38,13 +38,14 @@
 - [🛡️ DNS-Filtering & Kontrolle (Deep-Dive)](dns_deep_dive.md)
 - [📧 Anonyme Identitäten (Alias-Strategie)](alias_strategy.md)
 - [🔐 2FA-Hardening (Sichere Logins)](2fa_hardening.md)
-- 🕵️ [Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
+- [🕵️ Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
 - [📂 Scoped Storage & Dateimanagement (Daten-Isolation)](scoped_storage.md)
 - [🧬Permission-Hardening & App-Ops (Deep-Dive)](permission_hardening.md)
 - [⌨️ Tastatur-Härtung (Eingabe-Privatsphäre)](keyboard_hardening.md)
 - [🛰️ Standort-Verschleierung (Mock Locations)](mock_locations.md)
 - [📄 Dokumenten-Härtung (Metadaten-Stripping)](document_hardening.md)
 - [☁️ Verschlüsselte Synchronisation (Zero-Knowledge)](cloud_encryption.md)
+- [📴 Sensoren-Hardening (Hardware-Kill-Switch)](sensor_hardening.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
