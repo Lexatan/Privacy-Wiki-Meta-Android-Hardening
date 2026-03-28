@@ -47,5 +47,5 @@ Verhindere, dass Apps im Hintergrund heimlich deine kopierten Passwörter oder 2
 * **Pfad:** Einstellungen > Datenschutz.
 * **Aktion:** Aktiviere **"Zugriff auf Zwischenablage anzeigen"**. 
 * **Vorteil:** Du erhältst sofort eine Benachrichtigung (Toast), wenn eine App auf deine Zwischenablage zugreift.
-* 
+  
 [⬅️ Zurück zur Hauptseite](README.md)
