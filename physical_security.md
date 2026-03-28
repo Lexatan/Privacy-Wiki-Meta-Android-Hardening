@@ -34,4 +34,18 @@ Wenn du in eine Situation gerätst, in der du dein Handy schnell sperren oder se
 * **Lösung:** Nutze ein reines Ladekabel (ohne Datenleitungen) oder einen **USB-Datenblocker** ("USB-Kondom"), der die Datenpins physisch trennt.
 
 ---
+### 🛡️ Lockdown-Modus (Biometrie-Killswitch)
+In Situationen, in denen du gezwungen werden könntest, dein Handy per Fingerabdruck zu entsperren, versetzt dieser Modus das Gerät sofort zurück in den sicheren BFU-ähnlichen Zustand.
+
+* **Pfad:** Einstellungen > Sperrbildschirm > Sperrbildschirm-Einstellungen > "Sperroption anzeigen" aktivieren.
+* **Nutzung:** Halte die Power-Taste gedrückt und wähle **Lockdown**.
+* **Effekt:** Biometrie (Fingerabdruck/Face-Unlock) wird deaktiviert. Das Handy verlangt zwingend dein Passwort/PIN.
+
+### 📋 Clipboard-Privacy (Zwischenablage-Schutz)
+Verhindere, dass Apps im Hintergrund heimlich deine kopierten Passwörter oder 2FA-Codes auslesen.
+
+* **Pfad:** Einstellungen > Datenschutz.
+* **Aktion:** Aktiviere **"Zugriff auf Zwischenablage anzeigen"**. 
+* **Vorteil:** Du erhältst sofort eine Benachrichtigung (Toast), wenn eine App auf deine Zwischenablage zugreift.
+* 
 [⬅️ Zurück zur Hauptseite](README.md)
