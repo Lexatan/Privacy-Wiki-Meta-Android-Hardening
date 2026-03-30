@@ -66,8 +66,8 @@
 - [🤖 Automatisierung & Skripte](scripts_guide.md)
 - [🏎️ Custom ROMs & Bootloader](custom_rom_guide.md)
 - [🔍 Überprüfung & Monitoring (Visual Success)](verification_and_monitoring.md)
-- 🔌 [Hardware-Schutz & USB-Sicherheit](hardware_hardening.md)
-- 🧠 [Digitaler Minimalismus & Fokus](mindset_privacy.md)
+- [🔌 Hardware-Schutz & USB-Sicherheit](hardware_hardening.md)
+- [🧠 Digitaler Minimalismus & Fokus](mindset_privacy.md)
 - [📅 Privacy Check-Up Kalender (Wartungs-Routine)](#privacy-check-up-kalender)
   
 ### 🆘 Hilfe & Support
