@@ -57,6 +57,7 @@
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [🗑️ Canta (Sicheres Debloating)](canta.md)
 - [📦 InstallWithOptions (Kontrollierte Installation)](install-with-options.md)
+- [🏪 Neo Store (Sicheres App-Management)](neo-store.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
