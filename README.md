@@ -56,6 +56,7 @@
 - [🌐 Browser-Hardening & Tools](#browser)
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
 - [🗑️ Canta (Sicheres Debloating)](canta.md)
+- [📦 InstallWithOptions (Kontrollierte Installation)](install-with-options.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
