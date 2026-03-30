@@ -58,6 +58,8 @@
 - [🗑️ Canta (Sicheres Debloating)](canta.md)
 - [📦 InstallWithOptions (Kontrollierte Installation)](install-with-options.md)
 - [🏪 Neo Store (Sicheres App-Management)](neo-store.md)
+- [🔄 Privacy Flip (Profil-Isolation)](privacy-flip.md)
+- [🌟 Athena (System-Härtung)](athena.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
