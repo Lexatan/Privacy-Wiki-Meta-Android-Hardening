@@ -55,6 +55,7 @@
 - [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
 - [🌐 Browser-Hardening & Tools](#browser)
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
+- [🗑️ Canta (Sicheres Debloating)](canta.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
