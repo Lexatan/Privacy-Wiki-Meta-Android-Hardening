@@ -11,3 +11,5 @@ Privacy Flip ermöglicht es, sensible Apps in isolierten Profilen zu verwalten u
 1. **Isolation:** Installiere "Culprit Apps" (Meta, TikTok etc.) ausschließlich im Privacy-Profil.
 2. **Brückenschlag:** Nutze die integrierten Filesharing-Optionen nur für absolut notwendige Datentransfers zwischen den Profilen.
 3. **Automatisierung:** Kopple den "Flip" an Bedingungen (z. B. Verlassen des Heimnetzwerks), um maximale Sicherheit zu gewährleisten.
+---
+[⬅️ Zurück zur Hauptseite](README.md)
