@@ -62,6 +62,8 @@
 - [🔄 Privacy Flip (Profil-Isolation)](privacy-flip.md)
 - [🌟 Athena (System-Härtung)](athena.md)
 - [🔮 System-Aktivitäts-Monitoring (De1984)](de1984.md)
+- [🔥App Ops - Präzise Berechtigungskontrolle](app_ops.md)
+- [❄️ Hail - Apps effizient einfrieren](hail.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
