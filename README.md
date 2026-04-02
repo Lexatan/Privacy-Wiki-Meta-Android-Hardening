@@ -61,6 +61,7 @@
 - [🏪 Neo Store (Sicheres App-Management)](neo-store.md)
 - [🔄 Privacy Flip (Profil-Isolation)](privacy-flip.md)
 - [🌟 Athena (System-Härtung)](athena.md)
+- [🔮 System-Aktivitäts-Monitoring (De1984)](de1984.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
