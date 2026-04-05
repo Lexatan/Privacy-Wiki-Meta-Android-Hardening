@@ -108,14 +108,19 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 ### <a name="hardening-matrix"></a>📊 Hardening Matrix (Übersicht)
 
 
-| Kategorie | Technik | Empfehlung | Ziel |
+| Kategorie | Technik / Tool | Empfehlung | Schutzziel |
 | :--- | :--- | :--- | :--- |
 | **Datenschutz** | DNS-over-TLS | `dns.quad9.net` / `base.dns.mullvad.net` | Filtert Tracking & Malware systemweit |
-| **System** | Debloating | Canta & Shizuku (User-Mode) | RAM-Verbrauch um ~30% senken |
-| **Netzwerk** | Firewall | NetGuard (No-Root) | Kontrolliert App-Traffic & Blockt "Nach-Hause-Telefonieren" |
-| **Isolation** | Sandbox | Shelter / Insular | Strikte Trennung von Privat- & Meta-Apps |
-| **Identität** | Browser-Hardening | Mull / Cromite | Schutz vor Fingerprinting & Web-Tracking |
+| **System** | Debloating | **Canta** & **Shizuku** (User-Mode) | RAM-Verbrauch um ~30% senken |
+| **Kontrolle** | App-Freezing | **Hail** (via Shizuku) | Legt ungenutzte Apps & Tracker komplett still |
+| **Berechtigung**| Berechtigungs-Hardening | **App Ops** | Entzieht versteckte Tracking-Berechtigungen |
+| **Netzwerk** | Firewall | **NetGuard** (No-Root) | Kontrolliert App-Traffic & blockt "Nach-Hause-Telefonieren" |
+| **Isolation** | Sandbox | **Shelter** / **Insular** | Strikte Trennung von Privat- & Meta-Apps |
+| **Kommunikation**| Matrix-Protokoll | **Element X** | Dezentrale E2EE-Alternative ohne Telefonnummer |
+| **Identität** | Browser-Hardening | **Mull** / **Cromite** | Schutz vor Fingerprinting & Web-Tracking |
+| **Monitoring** | System-Aktivität | **De1984** | Echtzeit-Überprüfung von App-Aktivitäten |
 | **Physisch** | Hardware-Schutz | USB-Datenblocker / Cam-Cover | Schutz vor Juice Jacking & Spionage |
+
 
 
 
