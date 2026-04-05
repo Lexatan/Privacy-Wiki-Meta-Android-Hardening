@@ -20,7 +20,7 @@
 - [⚡ Quick-Start Guide (Schritt-für-Schritt)](quick_start.md)
 - [🚀 First-Boot Checkliste](setup_guide.md)
 - [📊 Hardening Matrix](#hardening-matrix)
-- [🛡️ Sicherheit & Richtlinien](#sicherheit)
+- [📧 Sicherheit & Richtlinien](#sicherheit)
 
 ### 📱 System-Optimierung (Poco/Xiaomi)
 - [⚙️ Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
@@ -64,6 +64,7 @@
 - [🔮 System-Aktivitäts-Monitoring (De1984)](de1984.md)
 - [🔥App Ops - (Präzise Berechtigungskontrolle)](app_ops.md)
 - [❄️ Hail - (Apps effizient einfrieren)](hail.md)
+- [🩺 F-Droid & Open Source Basics(Saubere Apps ohne Tracker)](f_droid.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
