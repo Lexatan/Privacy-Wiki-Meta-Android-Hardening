@@ -30,7 +30,7 @@ Um das Maximum an Privatsphäre aus Element X herauszuholen:
 
 ### 🤝 Synergie im Wiki
 * **Ergänzung zu [De1984](de1984.md):** Überprüfe mit De1984, wie wenig Hintergrunddaten Element X im Vergleich zu WhatsApp verbraucht.
-* **Teil des [Hardening-Checkpoints](checkpoints.md):** Der Wechsel zu Element X ist der finale Schritt, um die Telemetrie-Kette von Social-Media-Konzernen zu durchbrechen.
+
 
 ---
 **Dein Kontakt zu mir:** `@lexatan:matrix.org`
