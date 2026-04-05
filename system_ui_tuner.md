@@ -36,7 +36,7 @@ Für ein wirklich gehärtetes und minimalistisches Interface empfehlen wir:
 
 ### 🤝 Synergie im Wiki
 * **Ergänzung zu [Athena](athena.md):** Während Athena das System unter der Haube härtet, räumt der SystemUI Tuner die Oberfläche auf.
-* **Kombiniert mit [Digitaler Minimalismus](minimalismus.md):** Weniger visuelle Ablenkung in der Statusleiste führt zu weniger "Smartphone-Checking".
+* **Kombiniert mit [Digitaler Minimalismus](mindset_privacy.md):** Weniger visuelle Ablenkung in der Statusleiste führt zu weniger "Smartphone-Checking".
 
 ---
 [⬅️ Zurück zum Inhaltsverzeichnis](README.md)
