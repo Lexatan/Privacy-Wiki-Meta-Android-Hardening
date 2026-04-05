@@ -61,10 +61,11 @@
 - [🏪 Neo Store (Sicheres App-Management)](neo-store.md)
 - [🔄 Privacy Flip (Profil-Isolation)](privacy-flip.md)
 - [🌟 Athena (System-Härtung)](athena.md)
-- [🔮 System-Aktivitäts-Monitoring (De1984)](de1984.md)
+- [🔮 De1984 (System-Aktivitäts-Monitoring)](de1984.md)
 - [🔥App Ops - (Präzise Berechtigungskontrolle)](app_ops.md)
 - [❄️ Hail - (Apps effizient einfrieren)](hail.md)
 - [🩺 F-Droid & Open Source Basics(Saubere Apps ohne Tracker)](f_droid.md)
+- [🛠️ SystemUI Tuner - (Versteckte UI-Einstellungen kontrollieren)](system_ui_tuner.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
