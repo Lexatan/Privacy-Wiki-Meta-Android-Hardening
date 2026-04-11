@@ -96,7 +96,22 @@ Xiaomi versteckt Werbe-Dienste tief im System. Diese sollten als Erstes deaktivi
 - **Aktion:** **Werbe-ID löschen** wählen und "Personalisierte Werbung" deaktivieren.
 
 ---
+## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
 
+Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
+
+### Top-Empfehlungen (FOSS)
+* **Lawnchair 14 (Beta):** Der Goldstandard. Pixel-Look, extrem schnell und absolut sauber.
+* **Neo Launcher:** Maximal anpassbar und respektiert deine Privatsphäre zu 100%.
+* **Niagara Launcher:** Minimalistisch, perfekt für Einhandbedienung und Fokus.
+
+### ⚠️ HyperOS 2.0 Workaround (Launcher-Wechsel)
+Xiaomi erschwert den Wechsel des Standard-Launchers. Wenn "Standard-Apps" blockiert ist:
+1.  Gehe zu `Einstellungen -> Apps -> Apps verwalten`.
+2.  Tippe auf die drei Punkte oben rechts -> `App-Einstellungen zurücksetzen`.
+3.  Drücke den Home-Button -> Wähle deinen neuen Launcher und klicke auf "Immer".
+4.  *(Optional)* Nutze **FNG (Fluid Navigation Gestures)**, falls die System-Gesten im Drittanbieter-Launcher haken.
+---
 ## Meta (Instagram & Facebook) Anti-Tracking
 
 Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ein:
