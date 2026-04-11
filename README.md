@@ -21,7 +21,8 @@
 - [🚀 First-Boot Checkliste](setup_guide.md)
 - [📊 Hardening Matrix](#hardening-matrix)
 - [📧 Sicherheit & Richtlinien](#sicherheit)
-
+- [🍀 Roadmap 2026: Android-Überlebenshilfe](roadmap_2026.md)
+  
 ### 📱 System-Optimierung (Poco/Xiaomi)
 - [⚙️ Poco/Xiaomi System-Optimierung](#pocoxiaomi-system-optimierung)
 - [🔋 Performance & Akku-Mythen (Hintergründe)](performance_myths.md)
