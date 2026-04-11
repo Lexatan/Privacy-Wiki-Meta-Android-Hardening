@@ -152,6 +152,7 @@ Sicherheit ist kein Zustand, sondern ein Prozess. Diese 5-Minuten-Routine hält 
 | **Monatlich** | **Berechtigungs-Check** | `Einstellungen -> Datenschutz -> Berechtigungsmanager`. Wer nutzt Kamera/Standort ungefragt? |
 | **Quartal** | **Backup-Validierung** | Prüfe, ob dein externes Backup noch lesbar ist (Wichtig vor System-Updates!). |
 | **Quartal** | **Passwort-Audit** | Ändere Passwörter für kritische Dienste oder prüfe Leaks via "Have I Been Pwned". |
+
 ---
 
 ## <a name="browser"></a>Browser-Hardening & Tools
