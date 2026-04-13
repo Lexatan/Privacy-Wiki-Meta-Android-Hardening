@@ -9,27 +9,30 @@ html, body, .wrapper, .main-content, section {
   color: #e5e5e5 !important;
 }
 
-// Den weißen Inhaltsbereich eliminieren
-.main-content {
-  max-width: 90% !important;
-  margin: 0 auto !important;
-  background: #151515 !important;
+// Überschriften (H1 bis H6) richtig hell machen
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* Macht es plastischer */
 }
 
-// Tabellen-Matrix Styling
+// Den "Privacy-Wiki" Titel im Header extra hell machen
+header h1 {
+  color: #74f8ff !important; /* Passend zum Android-Cyan */
+}
+
+// Matrix-Rahmen und Tabellen-Styling
 table {
   display: block;
   overflow-x: auto;
   background-color: #1d1d1d !important;
-  border-collapse: collapse;
   color: #e5e5e5 !important;
 }
 
 th, td {
-  border: 1px solid #333 !important;
+  border: 1px solid #444 !important;
   padding: 10px !important;
 }
 
-// Text-Kontrast für Links und Code
+// Links und Code-Blöcke
 a { color: #4facfe !important; }
 code { background-color: #222 !important; color: #74f8ff !important; }
