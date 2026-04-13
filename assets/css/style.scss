@@ -1,0 +1,24 @@
+---
+---
+@import "{{ site.theme }}";
+
+body {
+  background-color: #151515 !important;
+  color: #e5e5e5 !important;
+}
+
+.main-content {
+  background-color: #151515 !important;
+  color: #e5e5e5 !important;
+}
+
+table {
+  display: block;
+  overflow-x: auto; /* Fix für die Matrix am Handy */
+  background-color: #222 !important;
+}
+
+code {
+  background-color: #333 !important;
+  color: #74f8ff !important;
+}
