@@ -111,6 +111,7 @@ Xiaomi erschwert den Wechsel des Standard-Launchers. Wenn "Standard-Apps" blocki
 2.  Tippe auf die drei Punkte oben rechts -> `App-Einstellungen zurücksetzen`.
 3.  Drücke den Home-Button -> Wähle deinen neuen Launcher und klicke auf "Immer".
 4.  *(Optional)* Nutze **FNG (Fluid Navigation Gestures)**, falls die System-Gesten im Drittanbieter-Launcher haken.
+   
 ---
 ## Meta (Instagram & Facebook) Anti-Tracking
 
