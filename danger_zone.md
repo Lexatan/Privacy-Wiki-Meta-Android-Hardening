@@ -37,6 +37,8 @@ Wenn ADB nicht mehr reagiert:
 3. Bestätige mit **"Confirm"**. Das Handy wird auf Werkseinstellungen zurückgesetzt.
 
 ---
+
 *Hinweis: Weniger ist manchmal mehr. Wenn du dir bei einer App unsicher bist, lass sie lieber installiert oder "friere" sie erst einmal nur ein, anstatt sie komplett zu löschen.*
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
