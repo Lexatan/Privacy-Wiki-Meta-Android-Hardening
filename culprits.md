@@ -28,6 +28,19 @@ Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Dat
 
 ---
 
+### 💡 Empfohlene Open-Source Alternativen (FOSS)
+
+Bevor du die oben genannten System-Apps löschst, solltest du datenschutzfreundliche Alternativen installiert haben:
+
+* **Browser:** [Mull](https://f-droid.org/de/packages/us.spotless.mull/) (gehärteter Firefox-Fork) oder [Cromite](https://github.com/uBlockOrigin/uBlock-issues/wiki/Privacy-policy).
+* **Video-Player:** [VLC](https://f-droid.org/de/packages/org.videolan.vlc/) oder [Nova Video Player](https://f-droid.org/de/packages/org.courville.nova/).
+* **Musik-Player:** [Auxio](https://f-droid.org/de/packages/org.oxy_projects.auxio/) oder [Vimusic](https://vimusic.de.uptodown.com/android).
+* **Wetter:** [Meteocool](https://f-droid.org/de/packages/org.beandev.meteocool/) oder [Geometric Weather](https://f-droid.org/de/packages/com.wangdayaya.geometricweather/).
+* **Notizen:** [Standard Notes](https://standardnotes.com/) oder [Quillpad](https://f-droid.org/de/packages/com.quillpad.adfree/).
+* **App-Store:** [Aurora Store](https://f-droid.org/de/packages/com.aurora.store/) (Anonymer Zugriff auf den Play Store).
+
+---
+
 ### 🛠 Durchführung der Optimierung
 
 1.  **Vorbereitung:** Sicherstellen, dass die erforderliche Umgebung (z. B. **Shizuku**) korrekt konfiguriert ist.
