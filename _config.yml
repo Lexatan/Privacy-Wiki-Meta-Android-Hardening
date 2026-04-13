@@ -1,0 +1,9 @@
+# GitHub Pages Konfiguration
+theme: jekyll-theme-slate
+
+# Seitendetails
+title: Privacy-Wiki: Meta & Android Hardening
+description: Dein Guide für ein gehärtetes Android-System und maximalen Tracking-Schutz.
+
+# Google Sichtbarkeit (optional)
+google_site_verification: 
