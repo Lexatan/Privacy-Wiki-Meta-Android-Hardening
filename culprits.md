@@ -17,6 +17,14 @@ Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Dat
 | `com.facebook.services` | Meta Services | Hintergrund-Telemetrie und Datenaustausch für Meta-Anwendungen. | 🔴 Sofort weg |
 | `com.google.android.gms.ads` | Google Ads | Bereitstellung der Werbe-ID für personalisierte Anzeigen. | 🔴 Empfohlen |
 | `com.mi.android.globalminusscreen` | App Vault | Der linke Homescreen ("Minus-One-Screen") mit Tracking-Widgets. | 🟡 Optional |
+| `com.android.browser` | Mi Browser | Xiaomi-Browser; trackt Suchverlauf und zeigt News-Werbung. | 🔴 Weg damit |
+| `com.miui.videoplayer` | Mi Video | Xiaomi-Player mit Online-Inhalten und vielen Berechtigungen. | 🔴 Weg damit |
+| `com.miui.player` | Mi Music | Musik-App mit Tracking-Schnittstellen für Online-Dienste. | 🔴 Weg damit |
+| `com.miui.bugreport` | Mi Feedback | Sammelt und sendet Fehlerberichte/Logs an Xiaomi-Server. | 🔴 Empfohlen |
+| `com.miui.weather2` | Wetter | Vorinstallierte Wetter-App mit Standort-Tracking und Werbung. | 🟡 Optional |
+| `com.google.android.apps.magazines` | Google News | Nachrichten-Aggregator; trackt Nutzerinteressen massiv. | 🔴 Empfohlen |
+| `com.google.android.apps.tachyon` | Google Duo / Meet | Vorinstallierter Videodienst; unnötige Telemetrie im Hintergrund. | 🟡 Optional |
+| `com.google.android.projection.gearhead` | Android Auto | System-App für Fahrzeuge; nur nötig, wenn aktiv genutzt. | 🟡 Optional |
 
 ---
 
@@ -25,8 +33,8 @@ Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Dat
 1.  **Vorbereitung:** Sicherstellen, dass die erforderliche Umgebung (z. B. **Shizuku**) korrekt konfiguriert ist.
 2.  **Identifikation:** Gezielte Suche nach den oben genannten Paketnamen in der App-Verwaltung (z. B. in **Canta**).
 3.  **Deaktivierung:** Entfernen oder Deaktivieren der Dienste.
-    *   **Profi-Tipp:** In Canta kannst du Apps oft erst einmal **"Einfrieren" (Freeze)**. So testest du die Systemstabilität, bevor du sie endgültig löschst.
-    *   *Hinweis:* Kritische Systemkomponenten (wie der System-Launcher oder Kern-Frameworks) sollten nicht ohne genaue Kenntnis modifiziert werden.
+    * **Profi-Tipp:** In Canta kannst du Apps oft erst einmal **"Einfrieren" (Freeze)**. So testest du die Systemstabilität, bevor du sie endgültig löschst.
+    * *Hinweis:* Kritische Systemkomponenten (wie der System-Launcher oder Kern-Frameworks) sollten nicht ohne genaue Kenntnis modifiziert werden.
 
 ---
 
@@ -44,18 +52,18 @@ Warum stehen diese Apps in der Liste? Hier sind die Werkzeuge, mit denen du die 
 
 ### 1. Exodus Privacy (Statische Analyse)
 Bevor du eine App installierst, kannst du auf [Exodus Privacy](https://reports.exodus-privacy.eu.org/) prüfen, welche Tracker eingebettet sind.
-*   **Beispiel:** Viele Taschenlampen-Apps enthalten 5+ Tracker (z. B. Facebook Ads, Google Firebase, Unity Ads).
-*   **Aktion:** Suche in Exodus nach dem Paketnamen (z. B. `com.miui.analytics`), um die eingebauten Tracker-Module zu sehen.
+* **Beispiel:** Viele Taschenlampen-Apps enthalten 5+ Tracker (z. B. Facebook Ads, Google Firebase, Unity Ads).
+* **Aktion:** Suche in Exodus nach dem Paketnamen (z. B. `com.miui.analytics`), um die eingebauten Tracker-Module zu sehen.
 
 ### 2. NetGuard & Firewall (Live-Monitoring)
 Mit einer No-Root-Firewall wie **NetGuard** siehst du in Echtzeit, wohin Apps "telefonieren".
-*   **Aha-Erlebnis:** Blockiere eine System-App und schau ins Protokoll. Du wirst sehen, wie oft pro Stunde versucht wird, Server in Übersee zu kontaktieren.
-*   **Überraschende Sünder:** Wetter-Apps oder Standard-Tastaturen, die ohne Grund versuchen, eine Internetverbindung aufzubauen.
+* **Aha-Erlebnis:** Blockiere eine System-App und schau ins Protokoll. Du wirst sehen, wie oft pro Stunde versucht wird, Server in Übersee zu kontaktieren.
+* **Überraschende Sünder:** Wetter-Apps oder Standard-Tastaturen, die ohne Grund versuchen, eine Internetverbindung aufzubauen.
 
 ### 3. Die "Berechtigungs-Falle"
 Prüfe in den Android-Einstellungen kritisch:
-*   Warum braucht eine Taschenrechner-App Zugriff auf deine **Kontakte**?
-*   Warum verlangt ein Dateimanager den **Standort**?
-*   **Regel:** Jede Berechtigung, die nicht zwingend für die Kernfunktion nötig ist, ist ein potenzieller Datenabfluss.
+* Warum braucht eine Taschenrechner-App Zugriff auf deine **Kontakte**?
+* Warum verlangt ein Dateimanager den **Standort**?
+* **Regel:** Jede Berechtigung, die nicht zwingend für die Kernfunktion nötig ist, ist ein potenzieller Datenabfluss.
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
