@@ -2,23 +2,34 @@
 ---
 @import "{{ site.theme }}";
 
-body {
+// Alles auf Schwarz/Dunkelgrau zwingen
+html, body, .wrapper, .main-content, section {
   background-color: #151515 !important;
+  background-image: none !important;
   color: #e5e5e5 !important;
 }
 
+// Den weißen Inhaltsbereich eliminieren
 .main-content {
-  background-color: #151515 !important;
-  color: #e5e5e5 !important;
+  max-width: 90% !important;
+  margin: 0 auto !important;
+  background: #151515 !important;
 }
 
+// Tabellen-Matrix Styling
 table {
   display: block;
-  overflow-x: auto; /* Fix für die Matrix am Handy */
-  background-color: #222 !important;
+  overflow-x: auto;
+  background-color: #1d1d1d !important;
+  border-collapse: collapse;
+  color: #e5e5e5 !important;
 }
 
-code {
-  background-color: #333 !important;
-  color: #74f8ff !important;
+th, td {
+  border: 1px solid #333 !important;
+  padding: 10px !important;
 }
+
+// Text-Kontrast für Links und Code
+a { color: #4facfe !important; }
+code { background-color: #222 !important; color: #74f8ff !important; }
