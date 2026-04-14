@@ -25,5 +25,6 @@ Falls du keinen PC zur Hand hast, kannst du Shizuku direkt über das **Wireless 
 4. **Start:** In Shizuku auf "Start" drücken.
 
 > **Tipp:** Wenn Shizuku nach einem Neustart stoppt, nutze die App **Daimon** (siehe Tabelle oben), um den Dienst automatisch wieder zu beleben.
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
