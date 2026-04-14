@@ -50,6 +50,7 @@
 - [🛑 Google-Services Hardening (Telemetrie-Stopp)](google_hardening.md)
 - [🔗 Link-Privatsphäre (Tracking-Stripping)](link_privacy.md)
 - [💬 Sichere Messenger-Alternativen (Element X)](element_x.md)
+- [📶 Verbindungssicherheit (MAC-Randomisierung)](mac_randomization.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
