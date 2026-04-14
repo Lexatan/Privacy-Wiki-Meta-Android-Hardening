@@ -182,7 +182,7 @@ Ein sicherer Browser ist dein wichtigstes Werkzeug gegen Web-Tracking. Standard-
 - **Cromite:** Ein entgoogelter Chromium-Fork mit starkem integriertem Adblocker.
 
 ### 2. Systemweites Privates DNS (DoT)
-Konfiguriere dies unter `Einstellungen -> Verbindung & Teilen -> Privates DNS`:
+Konfiguriere dies unter `Einstellungen -> (Mehr Verbindungsoptionen)Verbindung & Teilen -> Privates DNS`:
 - **Quad9:** `dns.quad9.net` (Hervorragender Schutz vor bösartigen Domains & Malware).
 - **Mullvad DNS:** `base.dns.mullvad.net` (Fokus auf Anonymität, striktes No-Logging).
 - **AdGuard:** `dns.adguard.com` (Aggressiver Filter für In-App Werbung).
