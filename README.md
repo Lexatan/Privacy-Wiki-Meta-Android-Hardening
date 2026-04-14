@@ -51,6 +51,7 @@
 - [🔗 Link-Privatsphäre (Tracking-Stripping)](link_privacy.md)
 - [💬 Sichere Messenger-Alternativen (Element X)](element_x.md)
 - [📶 Verbindungssicherheit (MAC-Randomisierung)](mac_randomization.md)
+- [🌀 WebView-Hardening (Sicheres In-App Browsing)](webview_hardening.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
