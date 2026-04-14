@@ -14,9 +14,28 @@
 
 ---
 
+## 🛡️ Die Modulare Hardening-Strategie
+
+Dieses Wiki ist so aufgebaut, dass du dein Gerät schrittweise härten kannst. Du musst nicht alles an einem Tag umsetzen. Wir unterscheiden zwischen drei aufeinanderaufbauenden Modulen, um das Risiko von Systemfehlern zu minimieren:
+
+### 🔵 Modul 1: Bereinigung (Debloating)
+Der erste Schritt zu einem sauberen System. Hier entfernen wir die offensichtliche Bloatware, schalten System-Werbung ab und deaktivieren Tracking-Dienste von Xiaomi und Meta. 
+*Ziel: Ein schnelleres System mit weniger Hintergrundaktivität.*
+
+### 🟢 Modul 2: Filterung & Isolation (Traffic Control)
+Hier setzen wir die "Brandmauern". Durch DNS-Filtering und App-Isolation stellen wir sicher, dass verbleibende Apps keine Daten nach Hause senden können und in ihrer eigenen Umgebung bleiben.
+*Ziel: Kontrolle über den Datenfluss und Schutz der Privatsphäre.*
+
+### 🔴 Modul 3: Fortgeschrittene Sicherheit (Hardening)
+In diesem Modul geht es um den Schutz vor physischem Zugriff, forensische Sicherheit und die Verschleierung von Hardware-IDs. Das ist das Level für maximale digitale Selbstbestimmung.
+*Ziel: Schutz gegen gezielte Überwachung und physische Datenextraktion.*
+
+---
+
 ## 📋 Inhaltsverzeichnis
 
 ### 🏁 Erste Schritte & Grundlagen
+- [🛡️ Modulare Strategie (Vorgehensweise)](strategy.md)
 - [⚡ Quick-Start Guide (Schritt-für-Schritt)](quick_start.md)
 - [🚀 First-Boot Checkliste](setup_guide.md)
 - [📊 Hardening Matrix](#hardening-matrix)
@@ -41,7 +60,7 @@
 - [🔐 2FA-Hardening (Sichere Logins)](2fa_hardening.md)
 - [🕵️ Browser-Fingerprinting (Anonym im Netz)](fingerprinting.md)
 - [📂 Scoped Storage & Dateimanagement (Daten-Isolation)](scoped_storage.md)
-- [🧬Permission-Hardening & App-Ops (Deep-Dive)](permission_hardening.md)
+- [🧬 Permission-Hardening & App-Ops (Deep-Dive)](permission_hardening.md)
 - [⌨️ Tastatur-Härtung (Eingabe-Privatsphäre)](keyboard_hardening.md)
 - [🛰️ Standort-Verschleierung (Mock Locations)](mock_locations.md)
 - [📄 Dokumenten-Härtung (Metadaten-Stripping)](document_hardening.md)
@@ -65,9 +84,9 @@
 - [🔄 Privacy Flip (Profil-Isolation)](privacy-flip.md)
 - [🌟 Athena (System-Härtung)](athena.md)
 - [🔮 De1984 (System-Aktivitäts-Monitoring)](de1984.md)
-- [🔥App Ops - (Präzise Berechtigungskontrolle)](app_ops.md)
+- [🔥 App Ops - (Präzise Berechtigungskontrolle)](app_ops.md)
 - [❄️ Hail - (Apps effizient einfrieren)](hail.md)
-- [🩺 F-Droid & Open Source Basics(Saubere Apps ohne Tracker)](f_droid.md)
+- [🩺 F-Droid & Open Source Basics (Saubere Apps ohne Tracker)](f_droid.md)
 - [🛠️ SystemUI Tuner - (Versteckte UI-Einstellungen kontrollieren)](system_ui_tuner.md)
   
 ### ⚡ Fortgeschrittene & Wartung
@@ -83,7 +102,7 @@
 - [❓ Häufig gestellte Fragen (FAQ)](faq.md)
 - [🚨 Notfall-Kit (Troubleshooting)](emergency_kit.md)
 - [🧨 Notfall-Wipe & Diebstahlschutz (Wasted)](emergency_wipe.md)
-  
+
 ---
 
 ## <a name="pocoxiaomi-system-optimierung"></a>Poco/Xiaomi System-Optimierung
@@ -126,7 +145,6 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 ---
 ### <a name="hardening-matrix"></a>📊 Hardening Matrix (Übersicht)
 
-
 | Kategorie | Technik / Tool | Empfehlung | Schutzziel |
 | :--- | :--- | :--- | :--- |
 | **Datenschutz** | DNS-over-TLS | `dns.quad9.net` / `base.dns.mullvad.net` | Filtert Tracking & Malware systemweit |
@@ -139,9 +157,6 @@ Meta sammelt Daten über dein Verhalten in anderen Apps. So schränkst du das ei
 | **Identität** | Browser-Hardening | **Mull** / **Cromite** | Schutz vor Fingerprinting & Web-Tracking |
 | **Monitoring** | System-Aktivität | **De1984** | Echtzeit-Überprüfung von App-Aktivitäten |
 | **Physisch** | Hardware-Schutz | USB-Datenblocker / Cam-Cover | Schutz vor Juice Jacking & Spionage |
-
-
-
 
 ---
 ### <a name="privacy-check-up-kalender"></a>📅 Privacy Check-Up Kalender
