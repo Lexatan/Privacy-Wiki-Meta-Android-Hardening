@@ -11,7 +11,7 @@ Canta nutzt das Shizuku-Framework, um System-Apps und Bloatware direkt auf dem G
 1. Stelle sicher, dass **Shizuku** bereits konfiguriert ist und läuft.
 2. Installiere **Canta** (bevorzugt via F-Droid oder GitHub).
 3. Öffne Canta und gewähre den Zugriff auf Shizuku.
-4. Wähle die [Culprit Apps](culprits.md)aus deiner Liste und entferne sie mit einem Klick.
+4. Wähle die [Culprit Apps](culprits.md) aus deiner Liste und entferne sie mit einem Klick.
 
 > ⚠️ **Hinweis:** Sichere deine Daten, bevor du Systemkomponenten entfernst. Nutze die Suchfunktion, um gezielt nach Trackern zu suchen.
 ---
