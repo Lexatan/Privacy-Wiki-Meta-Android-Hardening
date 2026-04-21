@@ -2,29 +2,39 @@
 
 Diese Übersicht listet Systemanwendungen und Dienste auf, die für Werbung, Datenerfassung oder unnötigen Ressourcenverbrauch bekannt sind. Diese Pakete können bei Bedarf über Tools wie **Canta** (in Verbindung mit **Shizuku**) oder via **ADB** deaktiviert werden.
 
-| Paketname | Anzeigename | Funktion / Grund für Deaktivierung | Empfehlung |
-| :--- | :--- | :--- | :--- |
-| `com.miui.msa.global` | MSA (System Ads) | Integration von Werbeanzeigen in System-Apps. | 🔴 Sofort weg |
-| `com.miui.analytics` | Analytics | Übermittlung von Telemetrie- und Nutzungsdaten an Xiaomi. | 🔴 Sofort weg |
-| `com.miui.daemon` | MiuiDaemon | Sammelt Hintergrund-Statistiken und Performance-Daten. | 🔴 Empfohlen |
-| `com.miui.joyose` | Joyose | Sendet massiv Telemetriedaten; drosselt teils die Performance. | 🔴 Empfohlen |
-| `com.xiaomi.glance.payload` | Glance (Lockscreen) | Werbe-Karussell auf dem Sperrbildschirm; lädt ständig Daten. | 🔴 Sofort weg |
-| `com.xiaomi.mipicks` | GetApps | Alternativer App-Store mit häufigen Push-Benachrichtigungen. | 🟡 Optional |
-| `com.miui.hybrid.accessory` | Quick Apps | Dienst für Instant-Apps; trackt App-Aufrufe im Hintergrund. | 🔴 Empfohlen |
-| `com.miui.yellowpage` | Yellow Pages | Branchenverzeichnis-Dienst; sendet oft Standortdaten. | 🟡 Optional |
-| `com.facebook.system` | Meta App Installer | Hintergrundprozess für die automatische Installation von Meta-Diensten. | 🔴 Sofort weg |
-| `com.facebook.appmanager` | Meta App Manager | Verwaltet Updates für Meta-Komponenten ohne Nutzerinteraktion. | 🔴 Sofort weg |
-| `com.facebook.services` | Meta Services | Hintergrund-Telemetrie und Datenaustausch für Meta-Anwendungen. | 🔴 Sofort weg |
-| `com.google.android.gms.ads` | Google Ads | Bereitstellung der Werbe-ID für personalisierte Anzeigen. | 🔴 Empfohlen |
-| `com.mi.android.globalminusscreen` | App Vault | Der linke Homescreen ("Minus-One-Screen") mit Tracking-Widgets. | 🟡 Optional |
-| `com.android.browser` | Mi Browser | Xiaomi-Browser; trackt Suchverlauf und zeigt News-Werbung. | 🔴 Weg damit |
-| `com.miui.videoplayer` | Mi Video | Xiaomi-Player mit Online-Inhalten und vielen Berechtigungen. | 🔴 Weg damit |
-| `com.miui.player` | Mi Music | Musik-App mit Tracking-Schnittstellen für Online-Dienste. | 🔴 Weg damit |
-| `com.miui.bugreport` | Mi Feedback | Sammelt und sendet Fehlerberichte/Logs an Xiaomi-Server. | 🔴 Empfohlen |
-| `com.miui.weather2` | Wetter | Vorinstallierte Wetter-App mit Standort-Tracking und Werbung. | 🟡 Optional |
-| `com.google.android.apps.magazines` | Google News | Nachrichten-Aggregator; trackt Nutzerinteressen massiv. | 🔴 Empfohlen |
-| `com.google.android.apps.tachyon` | Google Duo / Meet | Vorinstallierter Videodienst; unnötige Telemetrie im Hintergrund. | 🟡 Optional |
-| `com.google.android.projection.gearhead` | Android Auto | System-App für Fahrzeuge; nur nötig, wenn aktiv genutzt. | 🟡 Optional |
+## 📊 Legende der Empfehlungen
+
+| Symbol | Bedeutung |
+|:---:|---|
+| 🟢 | **Sicher zu deaktivieren** – Keine bekannten negativen Auswirkungen auf Systemstabilität oder Kernfunktionen. |
+| 🟡 | **Mit Vorsicht deaktivieren** – Testen nach dem Freeze empfohlen. Kann leichte Funktionseinbußen haben oder erfordert eine Alternative. |
+| ⚪ | **Optional** – Weder dringend notwendig noch besonders riskant. Persönliche Entscheidung. |
+
+---
+
+| Paketname | Anzeigename | Funktion / Grund für Deaktivierung | Abhängigkeiten / Risiko | Empfehlung |
+| :--- | :--- | :--- | :--- | :--- |
+| `com.miui.msa.global` | MSA (System Ads) | Integration von Werbeanzeigen in System-Apps. | Kaum bekannt; Entfernung sicher. | 🟢 Sicher zu deaktivieren |
+| `com.miui.analytics` | Analytics | Übermittlung von Telemetrie- und Nutzungsdaten an Xiaomi. | Keine negativen Auswirkungen bekannt. | 🟢 Sicher zu deaktivieren |
+| `com.miui.daemon` | MiuiDaemon | Sammelt Hintergrund-Statistiken und Performance-Daten. | Kann nach Updates wieder aktiv werden. | 🟡 Mit Vorsicht deaktivieren |
+| `com.miui.joyose` | Joyose | Sendet massiv Telemetriedaten; drosselt teils die Performance. | **Achtung:** Kann Akku-Management und Hitze-Regulierung beeinträchtigen. Nach Freeze testen! | 🟡 Mit Vorsicht deaktivieren |
+| `com.xiaomi.glance.payload` | Glance (Lockscreen) | Werbe-Karussell auf dem Sperrbildschirm; lädt ständig Daten. | Sicher entfernbar. | 🟢 Sicher zu deaktivieren |
+| `com.xiaomi.mipicks` | GetApps | Alternativer App-Store mit häufigen Push-Benachrichtigungen. | Keine System-Abhängigkeiten. | ⚪ Optional |
+| `com.miui.hybrid.accessory` | Quick Apps | Dienst für Instant-Apps; trackt App-Aufrufe im Hintergrund. | Kaum genutzt; Entfernung meist unkritisch. | 🟡 Mit Vorsicht deaktivieren |
+| `com.miui.yellowpage` | Yellow Pages | Branchenverzeichnis-Dienst; sendet oft Standortdaten. | Keine kritischen Abhängigkeiten. | ⚪ Optional |
+| `com.facebook.system` | Meta App Installer | Hintergrundprozess für die automatische Installation von Meta-Diensten. | Meta-Apps (Facebook/Instagram) funktionieren danach evtl. nicht mehr. | 🟢 Sicher zu deaktivieren (falls Meta-Apps genutzt werden: testen) |
+| `com.facebook.appmanager` | Meta App Manager | Verwaltet Updates für Meta-Komponenten ohne Nutzerinteraktion. | Wie oben. | 🟢 Sicher zu deaktivieren (falls Meta-Apps genutzt werden: testen) |
+| `com.facebook.services` | Meta Services | Hintergrund-Telemetrie und Datenaustausch für Meta-Anwendungen. | Wie oben. | 🟢 Sicher zu deaktivieren (falls Meta-Apps genutzt werden: testen) |
+| `com.google.android.gms.ads` | Google Ads | Bereitstellung der Werbe-ID für personalisierte Anzeigen. | Keine Beeinträchtigung der Google-Play-Dienste. | 🟢 Sicher zu deaktivieren |
+| `com.mi.android.globalminusscreen` | App Vault | Der linke Homescreen ("Minus-One-Screen") mit Tracking-Widgets. | Entfernt nur den linken Screen, kein System-Schaden. | ⚪ Optional |
+| `com.android.browser` | Mi Browser | Xiaomi-Browser; trackt Suchverlauf und zeigt News-Werbung. | Vorher Alternative (z.B. Mull) installieren und als Standard setzen. | 🟡 Mit Vorsicht deaktivieren |
+| `com.miui.videoplayer` | Mi Video | Xiaomi-Player mit Online-Inhalten und vielen Berechtigungen. | Alternative (z.B. VLC) vorher installieren. | 🟡 Mit Vorsicht deaktivieren |
+| `com.miui.player` | Mi Music | Musik-App mit Tracking-Schnittstellen für Online-Dienste. | Alternative (z.B. Auxio) vorher installieren. | 🟡 Mit Vorsicht deaktivieren |
+| `com.miui.bugreport` | Mi Feedback | Sammelt und sendet Fehlerberichte/Logs an Xiaomi-Server. | Keine negativen Auswirkungen bekannt. | 🟢 Sicher zu deaktivieren |
+| `com.miui.weather2` | Wetter | Vorinstallierte Wetter-App mit Standort-Tracking und Werbung. | Alternative (z.B. Geometric Weather) vorher installieren. | ⚪ Optional |
+| `com.google.android.apps.magazines` | Google News | Nachrichten-Aggregator; trackt Nutzerinteressen massiv. | Kann deaktiviert werden, ohne andere Dienste zu stören. | 🟢 Sicher zu deaktivieren |
+| `com.google.android.apps.tachyon` | Google Duo / Meet | Vorinstallierter Videodienst; unnötige Telemetrie im Hintergrund. | Nur nötig, wenn Meet aktiv genutzt wird. | ⚪ Optional |
+| `com.google.android.projection.gearhead` | Android Auto | System-App für Fahrzeuge; nur nötig, wenn aktiv genutzt. | Nur nötig bei Nutzung im Auto. | ⚪ Optional |
 
 ---
 
