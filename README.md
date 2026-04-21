@@ -14,23 +14,8 @@
 
 ---
 
-## 🛡️ Die Modulare Hardening-Strategie
 
-Dieses Wiki ist so aufgebaut, dass du dein Gerät schrittweise härten kannst. Du musst nicht alles an einem Tag umsetzen. Wir unterscheiden zwischen drei aufeinanderaufbauenden Modulen, um das Risiko von Systemfehlern zu minimieren:
 
-### 🔵 Modul 1: Bereinigung (Debloating)
-Der erste Schritt zu einem sauberen System. Hier entfernen wir die offensichtliche Bloatware, schalten System-Werbung ab und deaktivieren Tracking-Dienste von Xiaomi und Meta. 
-*Ziel: Ein schnelleres System mit weniger Hintergrundaktivität.*
-
-### 🟢 Modul 2: Filterung & Isolation (Traffic Control)
-Hier setzen wir die "Brandmauern". Durch DNS-Filtering und App-Isolation stellen wir sicher, dass verbleibende Apps keine Daten nach Hause senden können und in ihrer eigenen Umgebung bleiben.
-*Ziel: Kontrolle über den Datenfluss und Schutz der Privatsphäre.*
-
-### 🔴 Modul 3: Fortgeschrittene Sicherheit (Hardening)
-In diesem Modul geht es um den Schutz vor physischem Zugriff, forensische Sicherheit und die Verschleierung von Hardware-IDs. Das ist das Level für maximale digitale Selbstbestimmung.
-*Ziel: Schutz gegen gezielte Überwachung und physische Datenextraktion.*
-
----
 
 ## 📋 Inhaltsverzeichnis
 
@@ -71,6 +56,7 @@ In diesem Modul geht es um den Schutz vor physischem Zugriff, forensische Sicher
 - [💬 Sichere Messenger-Alternativen (Element X)](element_x.md)
 - [📶 Verbindungssicherheit (MAC-Randomisierung)](mac_randomization.md)
 - [🌀 WebView-Hardening (Sicheres In-App Browsing)](webview_hardening.md)
+- [🌠 Bluetooth-Verschleierung (Hardware-Identitäts-Schutz)](bluetooth_hardening.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
