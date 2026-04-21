@@ -101,6 +101,6 @@ Achtung: Dabei werden alle Fotos, Apps und Daten auf dem internen Speicher unwid
 
 ---
 
-⬅️ Zurück zur Hauptseite(README.MD)
+⬅️ Zurück zur Hauptseite(readme.md)
 
 ```
