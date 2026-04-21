@@ -57,6 +57,7 @@
 - [📶 Verbindungssicherheit (MAC-Randomisierung)](mac_randomization.md)
 - [🌀 WebView-Hardening (Sicheres In-App Browsing)](webview_hardening.md)
 - [🌠 Bluetooth-Verschleierung (Hardware-Identitäts-Schutz)](bluetooth_hardening.md)
+- [🌍 De-Googled Sync (Kontakte, Kalender & Cloud-Ersatz)](degoogled_sync.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
