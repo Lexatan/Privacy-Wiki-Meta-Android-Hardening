@@ -88,6 +88,7 @@ In diesem Modul geht es um den Schutz vor physischem Zugriff, forensische Sicher
 - [❄️ Hail - (Apps effizient einfrieren)](hail.md)
 - [🩺 F-Droid & Open Source Basics (Saubere Apps ohne Tracker)](f_droid.md)
 - [🛠️ SystemUI Tuner - (Versteckte UI-Einstellungen kontrollieren)](system_ui_tuner.md)
+- [🍫 Aurora Store: Anonymes App-Management (Google-ID Isolation)](aurora_store_guide.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
