@@ -28,7 +28,7 @@ Standardmäßig heißt dein Gerät oft "Poco F5" oder enthält deinen Vornamen. 
 
 ## 🛡️ Profi-Tipp: App Ops Kontrolle
 Viele Apps fordern die Berechtigung "Geräte in der Nähe finden". 
-* Nutze **App Ops**, um jeder App (außer z.B. Kopfhörer-Apps), diese Berechtigung konsequent zu entziehen. Ein Taschenrechner oder eine Fotogalerie braucht keinen Zugriff auf deine Bluetooth-Umgebung.
+* Nutze [App Ops](app_ops.md), um jeder App (außer z.B. Kopfhörer-Apps), diese Berechtigung konsequent zu entziehen. Ein Taschenrechner oder eine Fotogalerie braucht keinen Zugriff auf deine Bluetooth-Umgebung.
 
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
