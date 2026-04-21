@@ -8,11 +8,11 @@ Diese Apps nutzen die Shizuku-API, um System-Berechtigungen ohne Root-Zugriff zu
 | **App Ops** | Granulare Kontrolle über App-Berechtigungen (z.B. Hintergrund-Start). |
 | **Hail** | "Einfrieren" von Apps, die man selten braucht, um Akku zu sparen. |
 | **SystemUI Tuner** | Verstecken von Statusleisten-Icons und UI-Anpassungen. |
-| **Daimon** | Automatisches Starten von Shizuku nach einem Neustart. |
+| **Daimon** / **aDroid** | Automatisches Starten von Shizuku nach einem Neustart (Alternative bei Android 13/14: aDroid). |
 | **Privacy Flip** | Automatisiertes Deaktivieren von Sensoren (Kamera/Mikrofon) bei Bildschirmsperre. |
-| **Athena** | Kombiniert DNS-Filterung und Firewall-Funktionen zur Tracker-Blockierung. |
+| **Athena** | System-Härtung durch Berechtigungs- und Hintergrundkontrollen. |
 | **De1984** | Spezialisierter Privacy-Manager für tiefe Einblicke in App-Pakete und Berechtigungen. |
-| **InstallWithOptions** | Ermöglicht App-Installationen mit erweiterten Flags (z.B. für alte SDK-Versionen). |
+| **Install with Options** | Ermöglicht App-Installationen mit erweiterten Flags (z.B. für alte SDK-Versionen). |
 
 ---
 
@@ -20,11 +20,12 @@ Diese Apps nutzen die Shizuku-API, um System-Berechtigungen ohne Root-Zugriff zu
 Falls du keinen PC zur Hand hast, kannst du Shizuku direkt über das **Wireless Debugging** starten:
 
 1. **Entwickleroptionen:** 7x auf "MIUI-Version" tippen.
-2. **Wireless Debugging:** In den zusätzlichen Einstellungen aktivieren (muss im WLAN sein).
-3. **Pairing:** In Shizuku auf "Pairing" gehen -> Benachrichtigungsoptionen erlauben -> Pairing-Code aus den Entwickleroptionen eingeben.
+2. **Wireless Debugging:** In den Entwickleroptionen aktivieren.  
+   **Wichtig:** Tippe dann auf **"Gerät koppeln"** – der 6-stellige Pairing-Code erscheint.
+3. **Pairing:** In Shizuku auf "Pairing" gehen → Benachrichtigungsoptionen erlauben → Pairing-Code aus den Entwickleroptionen eingeben.
 4. **Start:** In Shizuku auf "Start" drücken.
 
-> **Tipp:** Wenn Shizuku nach einem Neustart stoppt, nutze die App **Daimon** (siehe Tabelle oben), um den Dienst automatisch wieder zu beleben.
+> **Tipp:** Wenn Shizuku nach einem Neustart stoppt, nutze **Daimon** oder **aDroid** (beide auf F-Droid), um den Dienst automatisch wieder zu starten. Auf aktuellen Android-Versionen (13/14) funktioniert aDroid oft zuverlässiger.
 
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
