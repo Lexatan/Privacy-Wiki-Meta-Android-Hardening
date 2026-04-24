@@ -225,3 +225,21 @@ Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehl
 
 ```bash
 adb shell cmd package install-existing [PAKETNAME]
+
+---
+
+## ☕ Unterstützung & Dankbarkeit
+
+Dieses Projekt wird in meiner Freizeit entwickelt, gepflegt und regelmäßig erweitert. Wenn dir dieser Leitfaden geholfen hat, dein Gerät sicherer zu machen, und du meine Arbeit unterstützen möchtest, freue ich mich über eine kleine Aufmerksamkeit.
+
+Deine Unterstützung hilft dabei:
+* Den Guide bei System-Updates (HyperOS/Android) aktuell zu halten.
+* Zeit für neue, tiefgreifende Analysen und Module zu investieren.
+* Das Projekt langfristig als kostenfreie Ressource zu erhalten.
+
+Jeder Beitrag ist **vollkommen freiwillig** und wird sehr geschätzt!
+
+**Hier kannst du mich auf einen virtuellen Kaffee einladen:**
+👉 [PayPal.me/lexatan81](https://paypal.me/lexatan81)
+
+**Vielen Dank für deine Unterstützung!** 🛡️🚀
