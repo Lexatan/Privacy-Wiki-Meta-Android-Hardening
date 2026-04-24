@@ -15,6 +15,36 @@
 ---
 
 
+## 🎯 Warum ein Bedrohungsmodell wichtig ist
+
+Nicht jeder benötigt dieselben Datenschutz- und Sicherheitsmaßnahmen. Welche Schritte sinnvoll sind, hängt davon ab, wovor du dich schützen möchtest, welche Daten du schützen willst und wer ein realistischer Angreifer ist. Dieses Konzept nennt man **Bedrohungsmodell**.
+
+Ein Bedrohungsmodell hilft dir dabei, sinnvolle Entscheidungen zu treffen. Ohne diese Einordnung besteht die Gefahr, Zeit und Aufwand in Maßnahmen zu investieren, die für deine persönliche Situation kaum zusätzlichen Nutzen bringen – oder umgekehrt wichtige Risiken zu übersehen.
+
+### ❓ Die drei zentralen Fragen
+Bevor du Änderungen an deinem Gerät vornimmst, solltest du dir folgende Fragen stellen:
+
+1. **Was möchte ich schützen?** (z. B. Nachrichten, Kontakte, Fotos, Standortdaten, Finanzinformationen)
+2. **Vor wem möchte ich mich schützen?** (z. B. Werbenetzwerke, neugierige Apps, Kriminelle, Arbeitgeber)
+3. **Wie wahrscheinlich ist dieses Risiko für mich?** (Tracker und Datenlecks sind im Alltag meist relevanter als theoretische staatliche Angriffe)
+
+### ⚖️ Der richtige Kompromiss
+Sicherheit und Privatsphäre sind keine Alles-oder-Nichts-Entscheidung. Mehr Schutz bedeutet oft auch mehr Aufwand oder weniger Komfort. Ein gutes Bedrohungsmodell hilft dir dabei, den richtigen Kompromiss zwischen Sicherheit, Privatsphäre und Alltagstauglichkeit zu finden.
+
+### 🎯 Für wen ist dieser Leitfaden gedacht?
+Dieser Leitfaden richtet sich in erster Linie an Nutzer, die:
+* Ihre Privatsphäre gegenüber **Werbenetzwerken** und datenhungrigen Diensten verbessern möchten.
+* Ihre **Angriffsfläche** gegenüber alltäglichen Bedrohungen (Malware, Phishing) reduzieren wollen.
+* Ihr Android-Gerät **sicherer konfigurieren** möchten, ohne auf Alltagstauglichkeit zu verzichten.
+
+> [!IMPORTANT]
+> Dieser Guide ist **nicht** für Hochrisiko-Zielgruppen gedacht (z. B. investigativer Journalismus oder politischer Aktivismus in repressiven Staaten). In solchen Fällen sind weitergehende Maßnahmen wie speziell gehärtete Betriebssysteme (z. B. GrapheneOS) erforderlich.
+
+**Kurz gesagt:** Das Ziel ist nicht, jede theoretische Gefahr auszuschließen, sondern die Risiken zu reduzieren, die für **dich** tatsächlich relevant sind.
+
+---
+
+
 
 
 ## 📋 Inhaltsverzeichnis
