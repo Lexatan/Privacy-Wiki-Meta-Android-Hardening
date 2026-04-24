@@ -220,13 +220,7 @@ Beiträge sind herzlich willkommen! Du hast eine neue Tracking-App gefunden oder
 
 ---
 
-## 🛠️ Rettungsanker (Restore)
-Falls eine System-App versehentlich gelöscht wurde und wichtige Funktionen fehlen, kannst du sie mit diesem Befehl via ADB wieder aktivieren:
 
-```bash
-adb shell cmd package install-existing [PAKETNAME]
-
----
 
 ## ☕ Unterstützung & Dankbarkeit
 
