@@ -88,6 +88,7 @@ Dieser Leitfaden richtet sich in erster Linie an Nutzer, die:
 - [🌀 WebView-Hardening (Sicheres In-App Browsing)](webview_hardening.md)
 - [🌠 Bluetooth-Verschleierung (Hardware-Identitäts-Schutz)](bluetooth_hardening.md)
 - [🌍 De-Googled Sync (Kontakte, Kalender & Cloud-Ersatz)](degoogled_sync.md)
+- [👽 KI-Privacy & AI-Opt-Out (HyperOS)](AI-Privacy-HyperOS.md)
   
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
