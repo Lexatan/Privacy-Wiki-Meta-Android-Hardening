@@ -16,3 +16,6 @@ HyperOS integriert zahlreiche KI-Funktionen, die persönliche Daten wie Fotos, T
 
 Weniger KI bedeutet weniger Tracking.  
 Dein Gerät bleibt voll nutzbar – aber deutlich privater.
+
+
+[⬅️ Zurück zur Hauptseite](README.md)
