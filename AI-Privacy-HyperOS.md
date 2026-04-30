@@ -10,12 +10,34 @@ HyperOS integriert zahlreiche KI-Funktionen, die persönliche Daten wie Fotos, T
   `Einstellungen → Datenschutz → Anzeige von Anzeigen & KI-Personalisierung`  
   ausschalten
 - **Werbedienste:** Personalisierte Empfehlungen deaktivieren
-- **App-Berechtigungen:** Xiaomi-Apps wie *Mi Video* oder *Musik* den Zugriff auf Nutzungsdaten entziehen
+- **App-Berechtigungen:** Xiaomi-Apps wie *Mi Video* oder *Musik* den Zugriff auf Nutzungsdaten entzieh
 
-## Fazit
+# 🛡️ KI-Tracking manuell einschränken
 
-Weniger KI bedeutet weniger Tracking.  
-Dein Gerät bleibt voll nutzbar – aber deutlich privater.
+Viele KI-Dienste lassen sich in den Systemeinstellungen begrenzen, ohne die Systemstabilität zu gefährden. Dies ist der erste Schritt, bevor zu tiefgreifenden Debloating-Maßnahmen gegriffen wird.
 
+### ⚙️ Systemeinstellungen anpassen
 
-[⬅️ Zurück zur Hauptseite](README.md)
+* **Personalisierte Werbung & KI-Vorschläge:**
+    * `Einstellungen` → `Datenschutz` → `Anzeigen-Dienste` → **Personalisierte Werbung deaktivieren**.
+* **KI-Benutzererfahrungsprogramm:**
+    * `Einstellungen` → `Datenschutz` → `Sonstige Datenschutzeinstellungen` → **Benutzererfahrungsprogramm beenden**.
+    * *Warum?* Hier werden Nutzungsstatistiken erfasst, um KI-Algorithmen und Funktionen zu trainieren.
+* **Hintergrund-Datenversand (Upload):**
+    * `Einstellungen` → `Datenschutz` → `Sonstige Datenschutzeinstellungen` → **Verwendungs- & Diagnosedaten** → **Deaktivieren**.
+
+---
+
+### 🛠️ KI-Pakete für Fortgeschrittene (Debloating)
+
+Wenn du die KI-Funktionen komplett unterbinden willst, sind dies die primären Pakete. 
+**Achtung:** Ein *Freeze* (Einfrieren via Canta/Shizuku) ist hier sicherer als ein komplettes Löschen via ADB, um die Systemintegrität zu testen.
+
+| Paketname | Beschreibung | Empfehlung |
+| :--- | :--- | :--- |
+| `com.miui.voiceassist` | **XiaoAi / Mi AI:** Der zentrale Knotenpunkt für KI-Interaktionen und Sprachsteuerung. | 🟡 Freeze |
+| `com.miui.aicloud.service` | **AI Cloud:** Steuert den Upload von Daten für die serverseitige KI-Verarbeitung. | 🟢 Sicher |
+| `com.xiaomi.aiasst.service` | **AI Assistant:** Hintergrunddienst für vorausschauende KI-Aktionen und "smarte" Features. | 🟡 Freeze |
+
+---
+[⬅️ Zurück zur Übersicht](README.md)
