@@ -107,6 +107,9 @@ Dieser Leitfaden richtet sich in erster Linie an Nutzer, die:
 - [🩺 F-Droid & Open Source Basics (Saubere Apps ohne Tracker)](f_droid.md)
 - [🛠️ SystemUI Tuner - (Versteckte UI-Einstellungen kontrollieren)](system_ui_tuner.md)
 - [🍫 Aurora Store: Anonymes App-Management (Google-ID Isolation)](aurora_store_guide.md)
+- [💪 ShizuWall – (Firewall ohne VPN-Zwang)](shizuwall.md)
+- [🔪 Shappky – (Hintergrund-Autostart-Killer)](shappky.md)
+- [🧹 SD Maid SE – (Gründliche Systemreinigung)](sd_maid_se.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
