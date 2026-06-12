@@ -193,6 +193,8 @@ sondern die Risiken zu reduzieren, die für **dich tatsächlich relevant sind**.
 - [💪 ShizuWall – (Firewall ohne VPN-Zwang)](shizuwall.md)
 - [🔪 Shappky – (Hintergrund-Autostart-Killer)](shappky.md)
 - [🧹 SD Maid SE – (Gründliche Systemreinigung)](sdmaid_se.md)
+- [🐙 Obtanium - (App-Updates direkt von der Quelle)](obtanium.md)
+- [🪓 Extirpater -(Freier Speicherplatz-Shredder)](extirpater.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
