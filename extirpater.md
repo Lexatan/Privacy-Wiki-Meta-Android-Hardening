@@ -14,6 +14,11 @@ Extirpater nutzt eine simple, aber hocheffektive Methode:
 3. Sobald der Speicher absolut voll ist (und somit alle "gelöschten" Geisterdaten physisch mit Nullen überschrieben wurden), löscht Extirpater diese temporären Dateien wieder.
 4. **Ergebnis:** Der freie Speicherplatz ist danach nachweislich leer und forensisch sauber.
 
+## 🏪 Bezugsquellen & Installation
+Da Extirpater eine strikte Open-Source-App ist, lässt sie sich sicher und ohne Tracker über dein bestehendes App-Ecosystem beziehen:
+* **Neo Store / F-Droid:** Die App ist im offiziellen F-Droid-Hauptverzeichnis gelistet und kann direkt über den Neo Store gesucht und installiert werden.
+* **Obtanium:** Alternativ kannst du das offizielle GitHub-Repository des Entwicklers (`https://github.com/itprojects/Extirpater`) direkt in Obtanium einpflegen, um Updates ohne die F-Droid-Verzögerung zu erhalten.
+
 ## 📋 Anwendung (Schritt-für-Schritt)
 1. **Vorbereitung:** Schließe alle Hintergrund-Apps. Da der Speicher komplett gefüllt wird, könnten Apps, die im Hintergrund Daten schreiben wollen, abstürzen.
 2. **Ladevorgang:** Stelle sicher, dass dein Akku gut geladen ist oder das Gerät am Ladekabel hängt. Das kontinuierliche Schreiben belastet die CPU und den Speicher-Controller intensiv.
@@ -25,5 +30,6 @@ Extirpater nutzt eine simple, aber hocheffektive Methode:
 Flash-Speicherzellen haben eine begrenzte Anzahl an Schreibzyklen (TBW - Terabytes Written). 
 * Nutze Extirpater **nicht täglich** oder automatisiert.
 * Ein idealer Rhythmus ist **einmal im Quartal**, nach großen Debloating-Aktionen oder zwingend **vor dem Verkauf/Weitergabe** eines Geräts.
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
