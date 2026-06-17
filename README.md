@@ -197,7 +197,7 @@ sondern die Risiken zu reduzieren, die für **dich tatsächlich relevant sind**.
 - [🧹 SD Maid SE – (Gründliche Systemreinigung)](sdmaid_se.md)
 - [🐙 Obtanium - (App-Updates direkt von der Quelle)](obtanium.md)
 - [🪓 Extirpater -(Freier Speicherplatz-Shredder)](extirpater.md)
-- [🔗 UntrackMe  (Link Cleaner: Tracking-Stripping)](untrackme.md)
+- [🦴 UntrackMe  (Link Cleaner: Tracking-Stripping)](untrackme.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
