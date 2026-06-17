@@ -176,6 +176,8 @@ sondern die Risiken zu reduzieren, die für **dich tatsächlich relevant sind**.
 ### 🛠️ Tools & Ecosystem
 - [💉 Shizuku Ecosystem](shizuku_tools.md)
 - [🧱 Firewall Guide (NetGuard)](netguard_guide.md)
+- [📡 RethinkDNS (All-in-One Firewall & DNS)](rethinkdns.md)
+- [🌀 InviZible Pro (Tor, DNS & I2P Anonymisierung)](invizible_pro.md)
 - [🧩 Google-Dienste ersetzen (microG)](microg_guide.md)
 - [🌐 Browser-Hardening & Tools](#browser)
 - [💎 Empfohlene Apps (Alternativen)](recommended_apps.md)
