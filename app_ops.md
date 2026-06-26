@@ -37,5 +37,17 @@ Für Apps, die du behalten musst, aber denen du nicht vertraust:
 * **Ergänzung zu [Athena](athena.md):** Während Athena das System härtet, zähmt App Ops die individuellen Apps.
 * **Vorbereitung für [Hail](hail.md):** Nutze App Ops für Apps, die laufen müssen, und Hail für Apps, die nur sporadisch aktiv sein dürfen.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel bis Hoch |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja |
+| **Risiko** | 🟡 Gering (Gekappte Berechtigungen können Apps crashen lassen) |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (Kontrolle über versteckte Tracker-Rechte) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐☆ |
+
+
+
+
 ---
 [⬅️ Zurück zum Inhaltsverzeichnis](README.md)
