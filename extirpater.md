@@ -31,5 +31,17 @@ Flash-Speicherzellen haben eine begrenzte Anzahl an Schreibzyklen (TBW - Terabyt
 * Nutze Extirpater **nicht täglich** oder automatisiert.
 * Ein idealer Rhythmus ist **einmal im Quartal**, nach großen Debloating-Aktionen oder zwingend **vor dem Verkauf/Weitergabe** eines Geräts.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | ❌ Nein |
+| **Risiko** | 🟢 Sicher (Überschreibt nur bereits gelöschten Speicherplatz) |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐☆ (Verhindert forensische Wiederherstellung) |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
+
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
