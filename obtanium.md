@@ -25,5 +25,17 @@ Obtanium schließt eine der größten Lücken im Open-Source-App-Management: Die
 * **Neo Store / F-Droid:** Für den Großteil deiner Open-Source-Standard-Apps.
 * **Aurora Store:** Für proprietäre Apps aus dem Play Store (anonymisiert).
 * **Obtanium:** Für kritische, quelloffene Apps (z. B. Messenger wie Element X, Browser, Passwortmanager), bei denen jede Stunde Verzögerung bei Sicherheitsupdates zählt.
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 🟡 Optional |
+| **Risiko** | 🟢 Keine Systemgefahr |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (Apps direkt von GitHub/Quelle ohne Mittelsmann) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐⭐ |
+
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
