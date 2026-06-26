@@ -25,5 +25,15 @@ Ein anonymes Peer-to-Peer-Netzwerk. Es eignet sich hervorragend für absolut sic
 * **Versteckte Brücken (Tor Bridges):** Falls du dich in einem Netzwerk befindest, das Tor blockiert (z. B. restriktive Firmen-WLANs), kannst du in den Einstellungen *Obfs4*- oder *Meek*-Brücken aktivieren, um die Tor-Nutzung zu verschleiern.
 * **Akku-Optimierung aus:** Wie bei allen permanenten Hintergrund-Diensten unter HyperOS/MIUI musst du der App in den Systemeinstellungen den Autostart erlauben und die Akku-Optimierung auf "Keine Einschränkungen" setzen.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🔴 Hoch (Komplexe Optionen) |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | ❌ Nein |
+| **Risiko** | 🟢 Keine Systemgefahr |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (Maximale Anonymisierung via Tor/I2P) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐☆ |
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
