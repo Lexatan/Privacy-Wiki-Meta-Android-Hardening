@@ -14,5 +14,16 @@ Canta nutzt das Shizuku-Framework, um System-Apps und Bloatware direkt auf dem G
 4. Wähle die [Culprit Apps](culprits.md) aus deiner Liste und entferne sie mit einem Klick.
 
 > ⚠️ **Hinweis:** Sichere deine Daten, bevor du Systemkomponenten entfernst. Nutze die Suchfunktion, um gezielt nach Trackern zu suchen.
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja |
+| **Risiko (Bootloop)** | 🟡 Gering bis Mittel (UAD-Datenbank) |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
 ---
+
 [⬅️ Zurück zur Hauptseite](README.md)
