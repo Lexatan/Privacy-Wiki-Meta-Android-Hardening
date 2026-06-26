@@ -17,5 +17,15 @@ Herkömmliche Firewalls wie NetGuard nutzen die Android-VPN-Schnittstelle. Das b
 2. ShizuWall die Berechtigung erteilen.
 3. Apps auswählen, denen der Internetzugriff entzogen werden soll (besonders effektiv für System-Apps und Tracker).
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja (Echte Firewall ohne VPN-Slot-Verlust) |
+| **Risiko** | 🟢 Gering |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐☆ |
+
+
 ---
 [⬅️ Zurück zur Übersicht](README.md)
