@@ -14,5 +14,17 @@ Ein mächtiges Tool, das Shizuku nutzt, um Apps mit erweiterten Parametern zu in
 4. Führe die Installation aus.
 
 Dies ist besonders nützlich für "Gehärtete Apps" oder modifizierte Clients, die vom System oft blockiert werden.
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel (Für fortgeschrittene Setups) |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja |
+| **Risiko** | 🟡 Gering (Ermöglicht Downgrades & Ziel-SDK-Anpassung) |
+| **Datenschutzgewinn** | ⭐⭐⭐☆☆ |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐☆ |
+
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
