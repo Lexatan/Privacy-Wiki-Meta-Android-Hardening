@@ -37,5 +37,14 @@ Für maximale Privatsphäre bei Apps, auf die du (noch) nicht verzichten kannst:
 * **Kombiniert mit [Canta](canta.md):** Was du nicht löschen kannst/willst, wird eingefroren.
 * **Kombiniert mit [App Ops](app_ops.md):** Nutze App Ops für die Rechte im Betrieb und Hail für die totale Stille im Standby.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja |
+| **Risiko (Systemstabilität)**| 🟢 Sehr gering |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐☆ |
+
 ---
 [⬅️ Zurück zum Inhaltsverzeichnis](README.md)
