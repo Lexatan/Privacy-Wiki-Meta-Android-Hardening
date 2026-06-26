@@ -15,5 +15,17 @@ Während die normale Android-Speicherverwaltung oft nur oberflächlich löscht, 
 ### 🔐 Shizuku-Bonus
 Mit Shizuku-Berechtigung kann SD Maid SE auf geschützte Dateiordner zugreifen, die für normale Cleaner unsichtbar bleiben. Das ist essenziell für ein wirklich "gehärtetes" Android-System.
 
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 🟡 Optional (Ergänzt tiefere Cache-Reinigung) |
+| **Risiko** | 🟢 Sehr gering |
+| **Datenschutzgewinn** | ⭐⭐⭐☆☆ (Entfernt Datenleichen) |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
+
+
 ---
 [⬅️ Zurück zur Übersicht](README.md)
