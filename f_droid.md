@@ -40,5 +40,14 @@ F-Droid ist die Basis für fast alle Tools in diesem Guide:
 * **Signatur-Konflikte:** Wenn du eine App über F-Droid installierst, die du vorher im Play Store hattest, musst du sie zuerst deinstallieren, da die digitalen Signaturen unterschiedlich sind.
 * **Berechtigungen:** Erlaube F-Droid (oder Neo Store) die Installation aus "Unbekannten Quellen", damit Updates reibungslos funktionieren.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 🟡 Optional (Für automatische Updates im Hintergrund) |
+| **Risiko** | 🟢 Absolut sicher |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (100% FOSS-Apps ohne Tracker) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐⭐ (Geprüfte Paket-Signaturen) |
+
 ---
 [⬅️ Zurück zum Inhaltsverzeichnis](README.md)
