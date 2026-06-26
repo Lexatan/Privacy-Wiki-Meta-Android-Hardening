@@ -15,5 +15,16 @@ Viele Apps (insbesondere Bloatware) starten sich nach dem Schließen selbststän
 ### 💡 Tipp für dein Setup
 Nutze Shappky besonders für Apps, die du nur selten brauchst, die aber dazu neigen, im Hintergrund "nach Hause zu telefonieren" (z.B. Shopping-Apps oder Xiaomi-Zusatzdienste).
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** |  Ja |
+| **Risiko** | 🟢 Sehr gering |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐☆ (Killt Autostart-Tracker im Hintergrund) |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
+
+
 ---
 [⬅️ Zurück zur Übersicht](README.md)
