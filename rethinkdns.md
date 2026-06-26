@@ -27,5 +27,16 @@ Da RethinkDNS als lokaler VPN-Dienst arbeitet, versucht MIUI/HyperOS gerne, die 
 2. Aktiviere **Autostart**.
 3. Setze die **Akkusparoptionen** auf **Keine Einschränkungen**.
 4. Sperre die App im Task-Manager (Schloss-Symbol), damit sie dauerhaft aktiv bleibt.
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | ❌ Nein (Lokales VPN / DNS) |
+| **Risiko** | 🟢 Keine Systemgefahr |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (All-in-One Krypto-DNS + Firewall) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐⭐ |
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
