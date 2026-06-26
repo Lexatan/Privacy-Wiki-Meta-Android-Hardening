@@ -27,5 +27,15 @@ Falls du keinen PC zur Hand hast, kannst du Shizuku direkt über das **Wireless 
 
 > **Tipp:** Wenn Shizuku nach einem Neustart stoppt, nutze **Daimon** oder **aDroid** (beide auf F-Droid), um den Dienst automatisch wieder zu starten. Auf aktuellen Android-Versionen (13/14) funktioniert aDroid oft zuverlässiger.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel (Einrichtung via ADB) |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 👑 Das Fundament selbst |
+| **Risiko** | 🟢 Keine Gefahr für das System |
+| **Datenschutzgewinn** | 🛠️ Ermöglicht alle Hardening-Tools |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐⭐ (Sicherer als Root) |
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
