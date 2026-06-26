@@ -13,5 +13,15 @@ Neo Store ist ein moderner, performanter F-Droid-Client, der sich auf Sicherheit
 3. **Proxy-Support:** Nutze die integrierten Optionen, um App-Downloads über Orbot (Tor) zu leiten, falls maximale Anonymität gewünscht ist.
 
 > 💡 **Pro-Tipp:** Nutze die "Tags" in Neo Store, um gezielt nach Apps zu suchen, die keine Netzwerkberechtigung benötigen.
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 🟡 Optional (Für automatische Updates im Hintergrund) |
+| **Risiko** | 🟢 Absolut sicher |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐⭐ (100% FOSS-Apps ohne Tracker) |
+| **Sicherheitsgewinn** | ⭐⭐⭐⭐⭐ (Geprüfte Paket-Signaturen) |
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
