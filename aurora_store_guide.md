@@ -27,5 +27,15 @@ Du kannst in den Einstellungen Apps ausblenden, die bekanntermaßen massiv track
 ## ⚠️ Wichtiger Hinweis zu Updates
 Da wir auf Stock-OS sind: Deaktiviere die automatischen Updates im Google Play Store komplett (oder deaktiviere den Play Store via Canta/Hail), damit nur der Aurora Store deine Apps verwaltet. So verhinderst du, dass Google deine installierten Apps wieder mit deiner ID verknüpft.
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | 🟡 Optional (Für unaufgefordertes Installieren) |
+| **Risiko** | 🟢 Keine Systemgefahr |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐☆ (Anonymer Play-Store-Zugriff ohne Google-ID) |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
+
 ---
 [⬅️ Zurück zur Hauptseite](README.md)
