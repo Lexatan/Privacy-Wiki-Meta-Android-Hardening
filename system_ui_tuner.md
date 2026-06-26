@@ -38,5 +38,17 @@ Für ein wirklich gehärtetes und minimalistisches Interface empfehlen wir:
 * **Ergänzung zu [Athena](athena.md):** Während Athena das System unter der Haube härtet, räumt der SystemUI Tuner die Oberfläche auf.
 * **Kombiniert mit [Digitaler Minimalismus](mindset_privacy.md):** Weniger visuelle Ablenkung in der Statusleiste führt zu weniger "Smartphone-Checking".
 
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟡 Mittel (Braucht ADB-Rechtevergabe) |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | ❌ Nein (Nutzt Systemeinstellungen) |
+| **Risiko** | 🟡 Gering (Versteckt UI-Elemente oder ändert Flags) |
+| **Datenschutzgewinn** | ⭐⭐☆☆☆ |
+| **Sicherheitsgewinn** | ⭐⭐⭐☆☆ |
+
+
+
+
 ---
 [⬅️ Zurück zum Inhaltsverzeichnis](README.md)
