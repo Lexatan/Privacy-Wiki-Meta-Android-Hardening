@@ -26,5 +26,17 @@ Wenn du einen Link an Freunde per Messenger (z. B. *Element X*) senden möchtest
 * Wähle **Link Cleaner / UntrackMe** aus.
 * Die gesäuberte URL wird direkt in deine Zwischenablage kopiert – bereit zum sicheren Teilen ohne digitalen Fußabdruck.
 
+
+| Eigenschaft | Bewertung |
+| :--- | :--- |
+| **Schwierigkeitsgrad** | 🟢 Leicht |
+| **Root notwendig** | ❌ Nein |
+| **Shizuku-Anbindung** | ❌ Nein |
+| **Risiko** | 🟢 Absolut risikofrei |
+| **Datenschutzgewinn** | ⭐⭐⭐⭐☆ (Strippt Tracking-Parameter aus URLs vor dem Teilen) |
+| **Sicherheitsgewinn** | ⭐⭐☆☆☆ |
+
+
+
   ---
 [⬅️ Zurück zur Hauptseite](README.md)
