@@ -227,8 +227,21 @@ Xiaomi versteckt Werbe-Dienste tief im System. Diese sollten als Erstes deaktivi
 - **Aktion:** **Werbe-ID löschen** wählen und "Personalisierte Werbung" deaktivieren.
 
 ---
+### ⚠️ Wichtig: Daten-Leichen nach App-Deinstallation vermeiden
+
+Viele Apps bieten die bequeme Option **„Mit Google anmelden“** (*Sign-in with Google*). Was viele nicht wissen: Wenn du eine solche App einfach nur von deinem Smartphone löschst, bleibt die digitale Verknüpfung im Hintergrund aktiv. Der Anbieter hat über das sogenannte **OAuth-Token** weiterhin theoretischen Zugriff auf deine freigegebenen Google-Kontodaten (z. B. E-Mail-Adresse, Profilinfos).
+
+#### 🛠️ So trennst du die Verbindung endgültig:
+
+Um verwaisten Apps den Zugriff komplett zu entziehen, musst du die Berechtigung direkt in deinem Google-Konto löschen:
+
+1. Öffne die **Einstellungen** deines Smartphones.
+2. Navigiere zu **Google** ➔ **Alle Dienste**.
+3. Suche nach dem Punkt **Einstellungen für Google-Apps** ➔ **Verbundene Apps** (*Connected apps*).
+4. Tippe auf die jeweilige App, die du nicht mehr nutzt, und wähle **„Verbindung trennen“** (bzw. *Zugriff entfernen*).
 ## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
 
+---
 Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
 
 ### Top-Empfehlungen (FOSS)
