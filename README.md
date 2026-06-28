@@ -242,7 +242,7 @@ Um verwaisten Apps den Zugriff komplett zu entziehen, musst du die Berechtigung 
 ## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
 
 ---
-###Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
+### Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
 
 ### Top-Empfehlungen (FOSS)
 * **Lawnchair 14 (Beta):** Der Goldstandard. Pixel-Look, extrem schnell und absolut sauber.
