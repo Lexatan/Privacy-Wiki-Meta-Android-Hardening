@@ -239,10 +239,11 @@ Um verwaisten Apps den Zugriff komplett zu entziehen, musst du die Berechtigung 
 2. Navigiere zu **Google** ➔ **Alle Dienste**.
 3. Suche nach dem Punkt **Einstellungen für Google-Apps** ➔ **Verbundene Apps** (*Connected apps*).
 4. Tippe auf die jeweilige App, die du nicht mehr nutzt, und wähle **„Verbindung trennen“** (bzw. *Zugriff entfernen*).
-## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
+
 
 ---
-### Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
+## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
+ Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
 
 ### Top-Empfehlungen (FOSS)
 * **Lawnchair 14 (Beta):** Der Goldstandard. Pixel-Look, extrem schnell und absolut sauber.
