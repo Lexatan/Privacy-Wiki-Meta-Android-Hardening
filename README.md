@@ -242,6 +242,22 @@ Um verwaisten Apps den Zugriff komplett zu entziehen, musst du die Berechtigung 
 
 
 ---
+### 🔒 Google-Telemetrie abschalten: „Nutzung & Diagnose“ deaktivieren
+
+Ab Werk sendet Android im Hintergrund fortlaufend Diagnose-, System- und Nutzungsdaten an Google. Laut Google dient dies zur „Verbesserung des Systems“, bedeutet im Klartext aber konstante Telemetrie und Hintergrund-Aktivität.
+
+#### 💡 Welche Vorteile hat das Deaktivieren?
+* **Mehr Privatsphäre:** Es werden keine fortlaufenden Berichte über dein Nutzungsverhalten, Systemzustände oder App-Aktivitäten an Google-Server übermittelt.
+* **Weniger Hintergrund-Traffic:** Das Gerät sendet weniger unbemerkt Datenpakete im Mobilfunknetz oder WLAN.
+* **Potenziell bessere Akkulaufzeit:** Da keine automatischen Diagnoseberichte im Hintergrund generiert und hochgeladen werden müssen, spart das CPU-Zyklen und schont den Akku.
+
+#### 🛠️ So schaltest du die Funktion ab:
+1. Öffne die **Einstellungen** deines Smartphones.
+2. Navigiere zu **Google** ➔ Tippe oben rechts auf die **drei Punkte (Menü)** oder scrolle direkt zum Bereich Dienste auf dem Gerät.
+3. Suche nach dem Punkt **Nutzung & Diagnose** (*Usage & diagnostics*).
+4. Stelle den Schalter ganz oben auf **Aus** (deaktiviert).
+
+---
 ## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
  Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
 
