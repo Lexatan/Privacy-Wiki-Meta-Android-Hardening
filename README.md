@@ -258,6 +258,37 @@ Ab Werk sendet Android im Hintergrund fortlaufend Diagnose-, System- und Nutzung
 4. Stelle den Schalter ganz oben auf **Aus** (deaktiviert).
 
 ---
+### 🛑 Google-Aktivitätseinstellungen einfrieren
+
+Standardmäßig speichert dein Google-Konto chronologisch jeden App-Start, jede Suchanfrage und jeden besuchten Ort.
+
+#### 🛠️ Web- und App-Aktivitäten pausieren:
+1. Öffne die **Einstellungen** des Smartphones.
+2. Navigiere zu **Google** ➔ **Alle Dienste**.
+3. Tippe ganz oben auf **Dein Google-Konto verwalten**.
+4. Navigiere zum Reiter **Daten & Datenschutz**.
+5. Unter **Aktivitätseinstellungen** findest du die Punkte **Web- und App-Aktivitäten** sowie den **Standortverlauf**.
+6. Tippe sie an und setze sie auf **Pausieren** (bzw. Deaktivieren).
+
+---
+
+### 📡 Google-Standortgenauigkeit & Scans minimieren
+
+Auch wenn GPS ausgeschaltet ist, scannt Android im Hintergrund permanent nach WLAN-Netzen und Bluetooth-Geräten in deiner Umgebung, um deinen Standort exakt zu bestimmen und an Google zu senden.
+
+#### 🛠️ 1. WLAN- und Bluetooth-Suche abschalten
+Selbst wenn du WLAN oder Bluetooth deaktivierst, bleibt die Suche im Hintergrund oft für Standortdienste aktiv.
+1. Öffne die **Einstellungen** ➔ **Standort**.
+2. Tippe auf **WLAN- und Bluetooth-Suche** (oder *Sucheinstellungen*).
+3. Schalte sowohl die **WLAN-Suche** als auch die **Bluetooth-Suche** auf **Aus**.
+
+#### 🛠️ 2. Google-Standortgenauigkeit deaktivieren
+Verhindert, dass Google Mobilfunkzellen und WLANs in der Umgebung nutzt, um dich im Hintergrund zu tracken.
+1. Gehe zu **Einstellungen** ➔ **Standort** ➔ **Standortdienste**.
+2. Tippe auf **Google-Standortgenauigkeit** (*Google Location Accuracy*).
+3. Schalte den Regler auf **Aus** (das Gerät nutzt dann nur noch echtes GPS, wenn eine App es aktiv anfordert).
+
+---  
 ## 🚀 Launcher-Hardening: Weg vom Stock-Telemetrie-Müll
  Der Standard-Poco/Xiaomi-Launcher ist tief mit System-Analytics verknüpft. Ein Open-Source-Launcher bricht diese Verbindung und spart RAM.
 
