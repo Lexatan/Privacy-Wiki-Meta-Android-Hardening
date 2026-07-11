@@ -258,6 +258,24 @@ Ab Werk sendet Android im Hintergrund fortlaufend Diagnose-, System- und Nutzung
 4. Stelle den Schalter ganz oben auf **Aus** (deaktiviert).
 
 ---
+### 📊 Google Privacy Sandbox: „Erfolgsmessung bei Anzeigen“ kappen
+
+Google nutzt neuere Datenschutz-Schnittstellen (Privacy Sandbox), bei denen das System selbst analysiert, wie du auf Werbung reagierst. Bei der „Erfolgsmessung bei Anzeigen“ dürfen Apps und Werbetreibende Informationen von Android anfordern, um statistisch zu erfassen, ob eine Anzeige bei dir zu einem Klick oder Kauf geführt hat.
+
+#### 💡 Welche Vorteile hat das Deaktivieren?
+* **Unterbindung von Conversion-Tracking:** Werbenetzwerke können nicht mehr über Android abfragen, welche Werbeaktionen auf deinem Gerät „erfolgreich“ waren.
+* **Keine In-App Profilbildung:** Apps erhalten keine Systemdaten mehr darüber, wie du mit Anzeigen interagierst.
+* **Echte Datensparsamkeit:** Anstatt deine Interaktionen verzögert im Hintergrund zu melden, blockiert das System jegliche Übermittlung dieser Analysedaten.
+
+#### 🛠️ So schaltest du die Funktion ab:
+1. Öffne die **Einstellungen** deines Smartphones.
+2. Navigiere zu **Google** ➔ **Alle Dienste** ➔ **Werbung**.
+3. Tippe auf den Unterpunkt **Datenschutz bei Werbung**.
+4. Wähle den Eintrag **Erfolgsmessung bei Anzeigen** (*Ad measurement*).
+5. Stelle den Schalter bei **Erfolgsmessung bei Anzeigen erlauben** auf **Aus** (deaktiviert).
+6. *(Optional)* Tippe direkt darunter auf **Analysedaten zurücksetzen**, um bereits lokal gesammelte Berichte sofort zu löschen.
+
+---
 ### 🛑 Google-Aktivitätseinstellungen einfrieren
 
 Standardmäßig speichert dein Google-Konto chronologisch jeden App-Start, jede Suchanfrage und jeden besuchten Ort.
