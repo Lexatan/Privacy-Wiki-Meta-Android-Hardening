@@ -20,7 +20,7 @@ Dein Handy sendet permanent Signale aus, um andere Geräte zu finden, was zur St
 ### 3. Google Werbe-ID löschen
 Die Werbe-ID ist dein persönlicher Fingerabdruck für Werbenetzwerke.
 
-* **Pfad:** Einstellungen > Google > Werbe-ID.
+* **Pfad:** Einstellungen > Google > Alle Dienste > Werbung > Werbe-ID.
 * **Aktion:** Wähle **Werbe-ID löschen**. Damit wird der Identifier systemweit entfernt.
 
 ### 4. Personalisierung & Gemeinsame Daten
