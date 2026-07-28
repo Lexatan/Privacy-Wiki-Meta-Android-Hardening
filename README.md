@@ -289,7 +289,23 @@ Standardmäßig speichert dein Google-Konto chronologisch jeden App-Start, jede 
 6. Tippe sie an und setze sie auf **Pausieren** (bzw. Deaktivieren).
 
 ---
+### 🔍 Google Play-Dienste: „Geräte in der Nähe“ & Quick Share-Scans kappen
 
+Android nutzt im Hintergrund Schnittstellen der Google Play-Dienste, um permanent nach Geräten in deiner Umgebung zu suchen (z. B. für Schnelleinrichtung, Cast-Geräte oder Datentransfer). Das erzeugt unnötigen Radio-Traffic und erzeugt kontinuierlich Standort-Signale.
+
+#### 🛠️ 1. Quick Share auf „Nicht sichtbar“ stellen:
+1. Öffne die **Einstellungen** ➔ **Google** ➔ **Alle Dienste**.
+2. Tippe auf **Quick Share** (oder suche in den Einstellungen nach *Quick Share*).
+3. Tippe auf **Wer kann mit dir teilen** (*Who can share with you*).
+4. Wähle **Niemand** (*No one*) oder **Nur deine Geräte**.
+
+#### 🛠️ 2. Automatische Einrichtung & Umgebungssuche stoppen:
+1. Gehe zurück zu **Einstellungen** ➔ **Google** ➔ **Alle Dienste**.
+2. Scrolle zu **Geräte und Teilen** (*Devices & sharing*).
+3. Tippe auf **Geräte** (*Devices*).
+4. Deaktiviere die Option **Nach Geräten in der Nähe suchen** (*Scan for nearby devices*).
+
+---
 ### 📡 Google-Standortgenauigkeit & Scans minimieren
 
 Auch wenn GPS ausgeschaltet ist, scannt Android im Hintergrund permanent nach WLAN-Netzen und Bluetooth-Geräten in deiner Umgebung, um deinen Standort exakt zu bestimmen und an Google zu senden.
