@@ -2,6 +2,11 @@
 
 Während die Standard-Einstellungen von Android Berechtigungen sehr grob darstellen, schlüsselt **Permission Pilot** alle Berechtigungen deines Systems lückenlos und transparent auf. Es hilft dir, versteckte Rechte-Hunger-Sünden von Apps sofort zu entlarven.
 
+## 📦 Download & Bezugsquellen
+
+* **F-Droid / Neo Store:** In den Standard-Sourcing-Repositorys verfügbar.
+* **GitHub Repository:** [Permission Pilot auf GitHub](https://github.com/mitchtabian/Permission-Pilot) (Quellcode & Releases)
+
 ## 🌟 Hauptfunktionen
 
 * **Detaillierte Analyse:** Zeigt genau an, welche App Zugriff auf empfindliche Schnittstellen hat (z. B. Standort, Kamera, System-Einstellungen, Autostart oder Sensorik).
