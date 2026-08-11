@@ -5,7 +5,7 @@ Während die Standard-Einstellungen von Android Berechtigungen sehr grob darstel
 ## 📦 Download & Bezugsquellen
 
 * **F-Droid / Neo Store:** In den Standard-Sourcing-Repositorys verfügbar.
-* **GitHub Repository:** [Permission Pilot auf GitHub](https://github.com/mitchtabian/Permission-Pilot) (Quellcode & Releases)
+
 
 ## 🌟 Hauptfunktionen
 
