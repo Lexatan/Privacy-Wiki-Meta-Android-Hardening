@@ -198,6 +198,8 @@ sondern die Risiken zu reduzieren, die für **dich tatsächlich relevant sind**.
 - [🐙 Obtanium - (App-Updates direkt von der Quelle)](obtanium.md)
 - [🪓 Extirpater -(Freier Speicherplatz-Shredder)](extirpater.md)
 - [🦴 UntrackMe  (Link Cleaner: Tracking-Stripping)](untrackme.md)
+- [🧪 Permission Pilot (Berechtigungs-Audit & Monitoring)](permission_pilot.md)
+- [🧰 Universal Android Debloater - UAD-ng (Gefahrloses PC-Debloating)](uad_ng.md)
   
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
