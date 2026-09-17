@@ -333,8 +333,7 @@ Verhindert, dass die Tastatur kopierte Passwörter dauerhaft in der Leiste oben 
 
 
 ### 🛠️ 4. App-Ops Hardening (Zugriff gezielt entziehen)
-Wer Apps den Lese-Zugriff auf die Zwischenablage komplett verbieten möchte, kann die Berechtigung per **App Ops** oder **
-
+Wer Apps den Lese-Zugriff auf die Zwischenablage komplett verbieten möchte, kann die Berechtigung per **App Ops** direkt entziehen.
 ---
 ### 📡 Google-Standortgenauigkeit & Scans minimieren
 
