@@ -202,7 +202,8 @@ sondern die Risiken zu reduzieren, die für **dich tatsächlich relevant sind**.
 - [🧰 Universal Android Debloater - UAD-ng (Gefahrloses PC-Debloating)](uad_ng.md)
 - [🎛️ App Manager (Umfassendes App-Management & Tracker-Analyse)](app_manager.md)
 - [🧅 Orbot: Tor-Proxy & App-Routing (Anonymisierung)](orbot.md)
-      
+- [📸 Imagepipe: Metadaten-Cleaner vor dem Teilen](imagepipe.md)
+        
 ### ⚡ Fortgeschrittene & Wartung
 - [🛡️ Physische Sicherheit & Anti-Forensik](physical_security.md)
 - [🤖 Automatisierung & Skripte](scripts_guide.md)
