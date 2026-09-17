@@ -309,6 +309,33 @@ Android nutzt im Hintergrund Schnittstellen der Google Play-Dienste, um permanen
 4. Deaktiviere die Option **Nach Geräten in der Nähe suchen** (*Scan for nearby devices*).
 
 ---
+## <a name="zwischenablage-härtung-clipboard-protection"></a>📋 Zwischenablage-Härtung (Clipboard Protection)
+
+Viele Apps lesen beim Start oder im Hintergrund unbemerkt die Zwischenablage aus, um kopierte Passwörter, Links, Tokens oder persönliche Daten abzugreifen. Unter HyperOS / MIUI lässt sich dieses Verhalten transparent überwachen und einschränken.
+
+
+### 🛠️ 1. Pop-Up-Warnungen bei Zugriffen aktivieren
+Damit das System am unteren Bildschirmrand eine Benachrichtigung zeigt, sobald eine App auf kopierte Inhalte zugreift:
+* **Pfad:** `Einstellungen ➔ Datenschutz ➔ Schutz der Privatsphäre` *(oder `Datenschutz`)*.
+* **Aktion:** Schalter bei **„Zugriff auf die Zwischenablage anzeigen“** (*Show clipboard access*) aktivieren.
+
+
+### 🛠️ 2. HyperOS / System-Vorschläge unterbinden
+HyperOS schlägt standardmäßig vor, kopierte URLs direkt im Mi Browser zu öffnen. So deaktivierst du die automatische System-Analyse:
+* **Pfad:** `Einstellungen ➔ Weitere Einstellungen ➔ Verknüpfung für Zwischenablage` (*Clipboard shortcut*).
+* **Aktion:** Funktion auf **AUS** stellen.
+
+
+### 🛠️ 3. Tastatur-Vorschlagsleiste bereinigen (z. B. Gboard)
+Verhindert, dass die Tastatur kopierte Passwörter dauerhaft in der Leiste oben anzeigt:
+* **Pfad:** `Einstellungen ➔ Weitere Einstellungen ➔ Sprachen & Eingabe ➔ Tastaturen verwalten ➔ Gboard ➔ Zwischenablage`.
+* **Aktion:** **„Kürzlich kopierten Text und Bilder in Vorschlagsleiste zeigen“** deaktivieren.
+
+
+### 🛠️ 4. App-Ops Hardening (Zugriff gezielt entziehen)
+Wer Apps den Lese-Zugriff auf die Zwischenablage komplett verbieten möchte, kann die Berechtigung per **App Ops** oder **
+
+---
 ### 📡 Google-Standortgenauigkeit & Scans minimieren
 
 Auch wenn GPS ausgeschaltet ist, scannt Android im Hintergrund permanent nach WLAN-Netzen und Bluetooth-Geräten in deiner Umgebung, um deinen Standort exakt zu bestimmen und an Google zu senden.
