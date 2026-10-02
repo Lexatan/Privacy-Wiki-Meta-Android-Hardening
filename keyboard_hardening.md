@@ -6,7 +6,7 @@ Die Tastatur ist die sensibelste Schnittstelle deines Smartphones. Standard-Apps
 
 > [!IMPORTANT]
 > **VORSICHT: Zuerst installieren, dann deaktivieren!**
-> Installiere und aktiviere deine neue Tastatur (z. B. OpenBoard) **bevor** du Gboard deaktivierst oder die Berechtigungen entziehst. Wenn du Gboard abschaltest, ohne einen aktiven Ersatz zu haben, kannst du beim nächsten Sperrbildschirm keine PIN/Passwort mehr eingeben!
+> Installiere und aktiviere deine neue Tastatur (z. B. FlorisBoard) **bevor** du Gboard deaktivierst oder die Berechtigungen entziehst. Wenn du Gboard abschaltest, ohne einen aktiven Ersatz zu haben, kannst du beim nächsten Sperrbildschirm keine PIN/Passwort mehr eingeben!
 
 ---
 
@@ -21,7 +21,7 @@ Diese Tastaturen benötigen **keinen Internetzugriff** und respektieren deine Da
 
 | App-Name | Fokus | Vorteil |
 | :--- | :--- | :--- |
-| **OpenBoard** | Gboard-Alternative | 100% Open Source, gewohntes Layout, keine Tracker. |
+| **FlorisBoard** | Moderne FOSS-Tastatur | Modernes Design, sehr anpassbar, datenschutzfreundlich. |
 | **AnySoftKeyboard** | Maximale Kontrolle | Extrem anpassbar, sehr strikte Berechtigungen. |
 | **Heliboard** | Moderner Fork | Basiert auf OpenBoard, unterstützt aber Wischgesten (Glide Typing). |
 
@@ -29,7 +29,7 @@ Diese Tastaturen benötigen **keinen Internetzugriff** und respektieren deine Da
 
 ## ⚙️ Schritt-für-Schritt Einrichtung am Poco
 
-1. **Installation:** Lade deine Wunsch-Tastatur (Empfehlung: **OpenBoard**) via **F-Droid** herunter.
+1. **Installation:** Lade deine Wunsch-Tastatur (Empfehlung: **FlorisBoard**) via **F-Droid** herunter.
 2. **Aktivierung:** 
    * Gehe zu `Einstellungen` > `Weitere Einstellungen` > `Sprachen & Eingabe`.
    * Wähle `Tastaturen verwalten`.
